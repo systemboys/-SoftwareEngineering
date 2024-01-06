@@ -9,3 +9,7 @@ Os profissionais que concluem o curso de Engenharia de Software - Bacharelado po
 
 ---
 
+|                Marcos Aurélio Rocha da Silva                 | Sobre                                                        |
+| :----------------------------------------------------------: | ------------------------------------------------------------ |
+| ![](/home/marcos/Documentos/Projects/SoftwareEngineering/images/perfil_1.jpg) | _"Estudante de Engenharia de Software - Bacharelado apaixonado por  desvendar os mistérios do código e da inovação. Compartilhando  aprendizados e insights nessa jornada para simplificar o complexo. ✨  #EngenhariaDeSoftware #CódigoCriativo"_ |
+
