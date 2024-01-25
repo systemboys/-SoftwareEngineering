@@ -1151,3 +1151,112 @@ iii. combinar as soluções dos subproblemas na solução do problema original.
 - Repita o processo para todas as sublistas.
 
 ![Merge sort (Pseudo-algoritmo)](./images/Merge_sort-Pseudo-algoritmo.png)
+
+> Conceitos
+
+### Recapitulando
+
+- Estrutura de dados em Python
+- Algoritmos de busca
+- Algoritmos de Ordenação
+
+## Python Orientado a Objeto
+
+### Prof.ª Elisa Antolli
+
+### Contextualização
+
+- Classes e Métodos em Python
+- Bibliotecas e Módulos em Python
+- Aplicação de banco de dados com Python
+
+> Conceitos
+
+## Linguagem de programação: conceitos de orientação a objetos
+
+O que são objetos e o que as classes têm a ver com eles?
+
+Uma classe é uma abstração que descreve entidades do mundo real e quando instanciadas dão origem a objetos com características similares.
+
+Portanto, a classe é o modelo e o objeto é uma instância.
+
+Abstração - Classes e objetos
+
+Objetos são os componentes de um programa OO. Um programa que usa a tecnologia OO é basicamente uma coleção de objetos.
+
+Uma classe é um modelo para um objeto. Podemos considerar uma classe uma forma de organizar os dados (de um objeto) e seus comportamentos (PSF, 2020a). A classe é o modelo e o objeto é uma instância.
+
+Entende-se por instância a existência física, em memória, do objeto.
+
+![Classe Cães](./images/ConceitosDeOrientacaoAObjetos-ClasseCaes.png)
+
+![Diagrama de Classes](./images/ConceitosDeOrientacaoAObjetos-DiagramaDeClasses.png)
+
+Cada diagrama de classes é definido por três seções separadas: o próprio nome da classe, os dados e os comportamentos.
+
+Termos a classe funcionário, são especificados o que um funcionário deve ter.
+
+No nosso caso, como dados, ele deve ter um CPF e um nome, como comportamento, ele deve bater ponto e fazer login. Esses dados estão "preenchidos", ou seja, foram instanciados e, portanto, são objetos.
+
+### Atributos
+
+Os dados armazenados em um objeto representam o estado do objeto. Na terminologia de programação OO, esses dados são chamados de atributos. Os atributos contêm as informações que diferenciam os vários objetos - os funcionários, neste caso. ***Atributos*** são portanto, as características de um objeto, essas características também são conhecidas como variáveis, utilizando o exemplo dos cães, temos alguns atributos, tais como: cor, peso, altura e nome.
+
+```python
+public class Chachorro {
+    public String nome;
+    public float peso;
+    public float altura;
+    public String cor;
+}
+```
+
+### Métodos
+
+Nas linguagens procedurais, o comportamento é definido por procedimentos, funções e sub-rotinas. Na terminologia de programação OO, esses comportamentos estão contidos nos métodos, aos quais você envia uma mensagem para invocá-los.
+
+***Métodos*** são portanto, as ações que os objetos podem exercer quando solicitados, onde podem interagir e se comunicarem com outros objetos, utilizando o exemplo dos cães, temos alguns exemplos: latir, correr, pular.
+
+Implementando a classe "Cachorro" além dos Atributos, agora com Métodos:
+
+```python
+public class Cachorro {
+    public String name; [...]
+    public String cor;
+    void pular {
+        if (altura >= 80) {
+            System.out.println("Seu cachorro pula alto");
+        } else {
+            System.out.println("Seu cachorro pula baixo");
+        }
+    }
+}
+```
+
+### Herança
+
+Por meio desse mecanismo, é possível fazer o reuso de código, criando soluções mais organizadas.
+
+A herança permite que uma classe herde os atributos e métodos de outra classe. Observe, na Figura, que as classes funcionário e cliente herdam os atributos da classe pessoa. A classe pessoa pode ser chamada de classe-pai, classe-base, superclasse, ancestral; por sua vez, as classes derivadas são as classes filhas, subclasses.
+
+![Heranças](./images/Herancas.png)
+
+### Encapsulamento
+
+O ato de combinar os atributos e métodos na mesma entidade é, na linguagem OO, chamado de encapsulamento (Weisfeld, 2013), termo que também aparece na prática de tonar atributos privados, quando estes são encapsulados em métodos para guardar e acessar seus valores.
+
+Isso se chama <u>Ocultação de Informação</u> e é muito importante na programação.
+
+As Classes encapsulam dados e comportamento em cima desses dados.
+
+![Encapsulamento](./images/Encapsulamento.png)
+
+### Poliformismo
+
+Quando uma mensagem é enviada para um objeto, este deve ter um método definido para responder a essa mensagem. Em uma hierarquia de herança, todas as subclasses herdam as interfaces de sua superclasse.
+
+No entanto, como toda subclasse é uma entidade separada, cada uma delas pode exigir uma resposta separada para a mesma mensagem.
+
+**Polimorfismo** significa "muitas formas", é o termo definido em linguagens orientadas a objetos, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes.
+
+![Poliformismo](./images/Poliformismo.png)
