@@ -1,8 +1,8 @@
 #  Linguagem de Programação
 
-## Introdução à Linguagem Python
-
-### Prof.ª Elisa Antolli (Mestre em Ciência da Computação)
+> ## Introdução à Linguagem Python
+>
+> ### Prof.ª Elisa Antolli (Mestre em Ciência da Computação)
 
 ---
 
@@ -15,8 +15,8 @@
 - Exemplos de códigos
 
 > Conceitos
-
-## Introdução linguagem de Programação Python
+>
+> ## Introdução linguagem de Programação Python
 
 O que é Linguagem de Programação?
 
@@ -100,8 +100,8 @@ Olá mundo!
 ---
 
 > Conceitos
-
-## Variáveis e tipos básicos de dados em Python
+>
+> ## Variáveis e tipos básicos de dados em Python
 
 ### Variáveis
 
@@ -450,8 +450,8 @@ for c in disciplina:
 ---
 
 > Conceitos
-
-## Implementando Soluções em Python Mediante Funções
+>
+> ## Implementando Soluções em Python Mediante Funções
 
 Soluções dividindo-a em funções (blocos), além de ser uma boa prática de programação, tal abordagem facilita a leitura, a manutenção e a escalabilidade da solução.
 
@@ -1153,8 +1153,8 @@ iii. combinar as soluções dos subproblemas na solução do problema original.
 ![Merge sort (Pseudo-algoritmo)](./images/Merge_sort-Pseudo-algoritmo.png)
 
 > Conceitos
-
-### Recapitulando
+>
+> ## Recapitulando
 
 - Estrutura de dados em Python
 - Algoritmos de busca
@@ -1171,8 +1171,8 @@ iii. combinar as soluções dos subproblemas na solução do problema original.
 - Aplicação de banco de dados com Python
 
 > Conceitos
-
-## Linguagem de programação: conceitos de orientação a objetos
+>
+> ## Linguagem de programação: conceitos de orientação a objetos
 
 O que são objetos e o que as classes têm a ver com eles?
 
@@ -1260,3 +1260,815 @@ No entanto, como toda subclasse é uma entidade separada, cada uma delas pode ex
 **Polimorfismo** significa "muitas formas", é o termo definido em linguagens orientadas a objetos, que permite ao desenvolvedor usar o mesmo elemento de formas diferentes.
 
 ![Poliformismo](./images/Poliformismo.png)
+
+> Conceito
+>
+> ## Classes e métodos em Python
+
+### A Classes em Python
+
+Utiliza-se a palavra reservada `class` para indicar a criação de uma classe, seguida do nome e dois pontos. No bloco identado devem ser implementados os atributos e métodos da classe.
+
+```python
+class ClassName:
+    <statement-1>
+    .
+    .
+    .
+    <statement-N>
+```
+
+*Exemplo de um código*
+
+```python
+class PrimeiraClasse:
+    def imprimir_mensagem(self, nome): # Criando um método
+        print(f"Olá {nome}, seja bem-vindo!")
+        objeto1 = PrimeiraClasse() # Instanciando um objeto do tipo PrimeiraClasse
+        objeto1.imprimir_mensagem('João') # Invicando o método
+```
+
+### Construtor da classe `__init__()`
+
+Atributos de instância, também chamadas de variáveis de instâncias. Esse tipo de atributo é capaz de receber um valor diferente para cada objeto.
+
+Um atributo de instância é uma variável procedida com o parâmetro self, ou seja, a sintaxe para criar e utilizar é self.nome_atributo. Ao instanciar um novo objeto, é possível determinar um estado inicial para variáveis de instâncias por meio do método construtor da classe.
+
+Em Python, o método construtor é chamado de `__init__()`.
+
+Criamos a classe Televisao, que possui um atributo de instância e três métodos, o primeiro dos quais é (`__init()__`), aquele que é invocado quando o objeto é instanciado. Nesse método construtor, instanciamos o atributo volume com o valor 10, ou seja, todo objeto do tipo Televisao será criado com volume = 10. Veja que o atributo recebe o prefixo self., que o identifica como variável de instância.
+
+```python
+class Televisao:
+    def __init__(self):
+        self.volume = 10
+    def aumentar_volume(self):
+        self.volume += 1
+    def diminuir_volume(self):
+        self.volume -= 1
+
+tv = Televisao()
+print("Volume ao ligar a tv = ", tv.volume)
+tv.aumentar_volume()
+print("Volume autal = ", tv.volume)
+```
+
+### Variáveis e métodos privados
+
+Em linguagens de programação OO, como Java e C#, as classes, os atributos e os métodos são acompanhados de modificadores de acesso, que podem ser: **public**, **private** e **protected**.
+
+Em Python, **<u>não</u>** existem modificadores de acesso e todos os recursos são públicos. Para simbolizar que um atributo ou método é privado, por convenção, usa-se um sublinhado "_" antes do nome; por exemplo, _cpf, _calcular_desconto() (PSF, 2020a).
+
+Conceitualmente, dado que um atributo é privado, ele só pode ser acessado por membros da própria classe. Portanto, ao declarar um atributo privado, precisamos de métodos que acessem e recuperem os valores ali guardados. Em Python, além de métodos para este fim, um atributo privado pode ser acessado por <u>decorator</u>.
+
+Implementamos a classe `ContaCorrente`, que possui dois atributos privados: `_cpf` e `_saldo`. Para guardar um valor no atributo cpf, deve-se chamar o método set_cpf, e, para recuperar seu valor, usa-se `get_cpf`.
+
+```python
+class ContaCorrente:
+    def __init__(self):
+        self._saldo += valor
+    def depositar(self, valor):
+        self._saldo += valor
+    def consultar_saldo(self):
+        return self._sald
+```
+
+> ( ! ) Lembre-se: em Python, atributos e métodos privados são apenas uma convenção, pois, na prática, os recursos podem ser acessados de qualquer forma.
+
+### Herança em Python
+
+Em Python, uma classe aceita múltiplas heranças, ou seja, herda recursos de diversas classes. A sintaxe para criar a herança é feita com parênteses após o nome da classe: *`class NomeClasseFilha(NomeClassePi)`*.
+
+Se for uma herança múltipla, cada superclasse deve ser separada por vírgula.
+
+```python
+class Pessoa:
+    def __init__(self):
+        self.cpf = Nome
+        self.nome = Nome
+        self.endereco = Nome
+```
+
+```python
+f1 = Funcionario()
+fi.nome = "Funcionário A"
+print(f1.nome)
+
+c1 = Cliente()
+c1.cpf = "111.111.111-11"
+print(c1.cpf)
+```
+
+```python
+class Funcionario(Pessoa):
+    def __init_(self):
+        self.matricula = Nome
+        self.salacio = Nome
+    def bater_ponto(self):
+        # Código aqui
+        pass
+	def fazer_login(self):
+        # Código aqui
+        pass
+```
+
+### Métodos mágicos em Python
+
+Quando uma classe é criada em Python, ela herda, mesmo que não declarado explicitamente, todos os recursos de uma classe-base chamada ***object***.
+
+Veja o resultado da função `dir()`, que retorna uma lista com os recursos de um objeto. A classe Pessoa, que explicitamente não tem nenhuma herança, possui uma série de recursos nos quais os nomes estão com underline (sublinhado). Todos eles são chamados de métodos mágicos e, com a herança, podem ser sobrescritos.
+
+```python
+print(dir(Pessoa()))
+```
+
+> *( i ) Métodos mágicos*
+
+```python
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'cpf', 'endereco', 'nome']
+```
+
+### Método construtor na herança e sobrescrita
+
+Na herança, quando adicionamos a função `__init__()`, a classe-filho não herdará o construtor dos pais. Ou seja, o construtor <u>da classe-filho</u> sobrescreve (override) o da classe-pai. Para utilizar o construtor da <u>classebase</u>, é necessário invocá-lo explicitamente, dentro do construtor-filho, da seguinte forma:
+
+```python
+ClassePai.__init__().
+```
+
+### Herança múltipla
+
+Python permite que uma classe-filha herde recursos de mais de uma superclasse. Para isso, basta declarar cada classe a ser herdada separada por vírgula.
+
+### Bibliotecas e módulos em Python
+
+Um módulo pode ser uma biblioteca de códigos, o qual possui diversas funções (matemáticas, sistema operacional. etc.) as quais possibilitam a reutilização de códigos de uma forma elegante e eficiente.
+
+### Módulos e Bibliotecas em Python
+
+Uma opção para organizar o código é implementar funções, contexto em que cada bloco passa a ser responsável por uma determinada funcionalidade. outra forma é utilizar a orientação a objetos e criar classes que encapsulam as características e os comportamentos de um determinado objeto.
+
+Conseguimos utilizar ambas as técnicas para melhorar o código, mas, ainda assim, estamos falando de toda a solução agrupada em um arquivo Python (.py).
+
+### COMO UTILIZAR UM MÓDULO
+
+Para utilizar um módulo é preciso importá-lo para o arquivo. Essa importação pode ser feita de maneiras destintas:
+
+- `import moduloXXText`
+- `import moduloXX as apelido`
+- `form moduloXX import itemA, itemB`
+
+A forma de importação também determina a sintaxe para utilizar a funcionalidade.
+
+### Classificação dos módulos (bibliotecas)
+
+Três categorias, cada uma das quais vamos estudar:
+
+- Módulos built-in: embutidos no interpretador.
+- Módulos de terceiros: criados por terceiros e disponibilizados via PyPI.
+- Módulos próprios: criados pelo desenvolvedor.
+
+> - Módulo Built-in: Como estão embutidos no interpretador, esses módulos não precisam de nenhuma instalação adicional.
+> - Módulos random: Random é um módulo built-in usado para criar números aleatórios.
+> - Módulo os: OS é um módulo built-in usado para executar comandos no sistema operacional.
+> - Módulo re: O módulo re (regular expression) fornece funções para busca de padrões em um texto. Uma expressão regular especifica um conjunto de strings que corresponde a ela. As funções neste módulo permitem verificar se uma determinada string corresponde a uma determinada expressão regular.
+> - Módulo datetime: Trabalhar com datas é um desafio nas mais diversas linguagens de programação. Em Python há um módulo built-in capaz de lidar com datas e horas. O módulo datetime fornece classes para manipular datas e horas.
+
+### Módulos de terceiros
+
+Programadores autônomos e empresas podem, com isso, criar uma solução em Python e disponibilizar em forma de biblioteca no repositório PyPI, o que permite que todos usufruam e contribuam para o crescimento da linguagem.
+
+Para utilizar uma biblioteca do repositório PyPI, é preciso instalá-la.
+
+Para isso, abra um terminal no sistema operacional e digite: `pip install biblioteca`  [biblioteca é o nome do pacote que deseja instalar. Por exemplo: `pip install numpy`].
+
+```bash
+pip install numpy
+```
+
+Grande vantagem de usar bibliotecas é que elas encapsulam a complexidade de uma determinada tarefa, razão pela qual, com poucas linhas de códigos, conseguimos realizar tarefas complexas.
+
+### Bibliotecas que têm sido amplamente utilizadas
+
+- Bibliotecas para tratamento de imagens
+- Bibliotecas para visualização de dados
+- Bibliotecas para tratamento de dados
+- Bibliotecas para tratamento de textos
+- Internet, rede e cloud
+- Bibliotecas para acesso a bancos de dados
+- Deep learning - Machine learnig
+- Biblioteca para jogos - PyGames
+
+### Biblioteca requests
+
+A biblioteca requests habilita funcionalidades do protocolo **HTTP**, como o `get` e o `post`. Dentre seus métodos, o `get()` é o responsável por capturar informações da Internet. O método `get()` permite que você informe a URL de que deseja obter informações.
+
+Sua sintaxe é: `request.get('https://xxxx')`.
+
+*Para outros parâmetros dessa função, como autenticação, cabeçalhos, etc., consulte a documentação.*
+
+**Exemplo:**
+
+```python
+import requests
+
+info = requests.get('https://api.github.com/events')
+info.headers
+```
+
+### MATPLOTLIB
+
+Matplotlib é uma biblioteca com funcionalidades para criar gráficos. A quantidade de funcionalidades embutidas em uma biblioteca traz um universo de possibilidades ao desenvolvedor. Consulte sempre a documentação e os fóruns para acompanhar as novidades.
+
+![Matplotlib](./images/Matplotlib.png)
+
+### Módulos próprios
+
+- Os códigos podem ser organizados em diversos arquivos com extensão `.py` ou seja, em módulos.
+- Cada módulo pode importar outros módulos, tanto os pertencentes ao mesmo projeto, como os built-in ou de terceiros.
+- É dentro do módulo principal que vamos utilizar a funcionalidade de conexão para copiar um arquivo que está em um servidor para outro local.
+- É importante ressaltar que, da forma pela qual fizemos a importação, ambos os arquivos `.py` precisam estar no mesmo nível de pasta. Se precisarmos usar o módulo utils em **vários projetos**, é interessante transformá-lo em uma biblioteca e disponibilizá-la via PyPI.
+
+> Conceitos
+>
+> ## Aplicação de banco de dados com Python
+
+### Introdução a banco de dados
+
+Os sistemas de banco de dados podem ser divididos em duas categorias: **banco de dados relacional** e **banco de dados NoSQL**.
+
+Na teoria base dos bancos de dados relacionais, os dados são persistidos em uma estrutura bidimensional, chamada de relação (que é uma tabela), que está baseada na teoria dos conjuntos pertencentes à matemática. Cada unidade de dados é conhecida como coluna, ao passo que cada unidade do grupo é conhecida como linha, tupla ou registro.
+
+| Exemplo |  A   |    B     |        C         |    D    |   E   |
+| :-----: | :--: | :------: | :--------------: | :-----: | :---: |
+|    1    |  Id  |   Nome   |       Raça       |   Cor   | Idade |
+|    2    |  1   | Caramelo |    Vira lata     | Amarela |   8   |
+|    3    |  2   |   Xuxa   |     Dálmata      | Branca  |   3   |
+|    4    |  3   |   Lola   | Golden Retriever | Amarela |   4   |
+|    5    |  4   | Bolinha  |     Pinscher     |  Preta  |  12   |
+
+Já no **NoSQL** é usado para abordar a classe de banco de dados que não seguem os princípios do sistema de banco de dados relacional (RDBMS) e são projetados especificamente para lidar com a velocidade e a escala de aplicações.
+
+![Banco de Dados não Relacionais](./images/BancoDeDadosNaoRelacionais.png)
+
+### Linguagem de consulta estruturada - SQL
+
+SQL, significa (structured query language), é a linguagem que permite aos usuários se comunicarem com banco de dados relacionais.
+
+As instruções da linguagem SQL são divididas em três grupos: **DDL**, **DML**, **DCL**.
+
+- **DDL** (Data Definition Language). Fazem parte deste grupo as instruções destinadas a criar, deletar e modificar banco de dados e tabelas. Neste módulo vão aparecer comandos como *CREATE*, o *ALTER* e o *DROP*.
+- **DML** (Data Manipulation Language). Fazem parte deste grupo as instruções destinadas a recuperar, atualizar, adicionar ou excluir dados em um banco de dados. Neste módulo vão aparecer comandos como *INSERT*, *UPDATE* e *DELETE*.
+- **DCL** (Data Control Language). Fazem parte deste grupo as instruções destinadas a manter a segurança adequada para o banco de dados. Neste módulo vão aparecer comandos como *GRANT* e *REVOK*.
+
+### Conexão com banco de dados relacional
+
+Para fazer a conexão e permitir que uma linguagem de programação se comunique com um banco de dados com a utilização da linguagem SQL, podemos usar as tecnologias **ODBC** (Open Database Connectivity) e **JDBC** (Java Database Connectivite).
+
+A grande vantagem de utilizar as tecnologias ODBC ou JDBC está no fato de que uma aplicação pode acessar diferentes RDBMS sem precisar recompilar o código. Essa transparência é possível porque a comunicação direta com o RDBMS é feita por um driver. Um dirver é um software específico responsável por traduzir as chamadas ODBC e JDBC para a linguagem do RDBMS.
+
+### Conexão de banco de dados SQL em Python
+
+Para se comunicar com um RDBMS em Python, podemos utilizar bibliotecas já disponíveis, com uso das quais, por meio do driver de um determinado fornecedor, será possível fazer a conexão e a execução de comandos SQL no banco.
+
+Por exemplo, para se conectar com um banco de dados Oracle, podemos usar a biblioteca **cx-Oracle**, ou, para se conectar a um PostgreSQL, temos como opção o **psycopg2**.
+
+## BANCO DE DADOS SQLITE
+
+Essa tecnologia pode ser embutida em telefones celulares e computadores e vem incluída em inúmeros outros aplicativos que as pessoas usam todos os dias. Ao passo que a maioria dos bancos de dados SQL usa um servidor para rodar e gerenciar, o SQLite não possui um processo de servidor separado. O SQLite lê e grava diretamente em arquivos de dispostivo de armazenamento, ou seja, um banco de dados SQL completo com várias tabelas, índices, triggers e visualizações está contida em um único arquivo de dispositivo de armazenamento.
+
+O interpretador Python possui o módulo built-in **sqlite3**, que permite utilizar o mecanismo de banco de dados SQLite.
+
+### Criando um banco de dados
+
+O primeiro passo é importar o módulo **sqlite3**. Em razão da natureza do SQLite (ser um arquivo no dispositivo de armazenamento), ao nos conectarmos a um banco, o arquivo é imediatamente criado na pasta do projeto.
+
+```python
+import sqlite3
+conn = sqlite3.connect('aulaDB.db')
+print(type(conn))
+```
+
+### Criando uma tabela
+
+Agora que temos uma conexão com um banco de dados, vamos utilizar uma instrução DDL da linguagem SQL para criar a tabela fornecedor. O comando SQL que cria a tabela fonecedor está no código a seguir e foi guardado em uma variável chamada **ddl_create**.
+
+```python
+ddl_create = """
+CREATE TABLE fornecedor (
+    id_fornecedor INTEGER NOT NULL PRIMARY  KEY AUTOINCREMENT,
+    nome_fornecedor TEXT NOT NULL,
+    cnpj VARCHAR(18) NO TULL,
+    cidade TEXT,
+    estado VARCHAR(2) NOT NULL,
+    cep VARCHAR(9) NOT NULL,
+    data_cadastro DATE NOT NULL
+);
+"""
+```
+
+Agora basta utilizar um mecanismo para que esse comando seja executado no banco. Esse mecanismo, segundo o PEP 249, deve estar implementado em um método chamado **execute()** de um objeto **cursor**.
+
+Portanto, sempre que precisarmos executar um comando SQL no banco usando a linguagem Python, usaremos um cursor para construir essa ponte.
+
+Além de criar uma tabela, também podemos excluí-la. A sintaxe para <u>apagar</u> uma tabela (e todos os seus dados) é "*DROP TABLE table_name*".
+
+> Exemplo:
+>
+> ```python
+> import sqlite3
+> conn = sqlite3.connect('aulaDB.db')
+>
+> cursor = conn.cursor()
+> cursor.execute(ddl_create)
+> print("Tabela criada!")
+> print("Descrição do cursor: ", cursor.description)
+> print("Linhas afetadas: ", cursor.nowcount)
+> cursor.close()
+> conn.close()
+> ```
+
+### CRUD - Create, Read, Update, Delete
+
+CRUD é um acrônimo para as quatro operações do DML que podemos fazer em uma tabela no banco de dados. Podemos inserir informações (create), ler (read), atualizar (update) e apagar (delete).
+
+Os passos necessários para efetuar uma das operações do CRUD são sempre os mesmos:
+
+- (i) estabelecer a conexão com um banco;
+- (ii) criar um cursor e executar o comando;
+- (iii) gravar a operação;
+- (iv) fechar o cursor e a conexão.
+
+### informações do banco de dados e das tabelas
+
+Além das operações de CRUD, é importante sabermos extrair informações estruturais do banco de dados e das tabelas. Os comandos necessários para extrair essas informações podem mudar entre os bancos.
+
+- **CREATE**: Uma maneira mais prática de inserir vários registros é passar uma lista de tuplas, na qual cada uma destas contém os dados a serem inseridos em uma linha. Nesse caso, teremos que usar o método `executemany()` do cursor.
+- **READ**: Recuperar os dados. Também precisamos estabelecer uma conexão e criar um objeto cursor para executar a instrução de seleção. Ao executar a seleção, podemos usar o método `fetchall()` para capturar todas as linhas, através de uma lista de tuplas.
+- **UPDATE**: Ao inserir um registro no banco, pode ser necessário alterar o valor de uma coluna, o que pode ser feito por meio da instrução `SQL UPDATE`.
+- **DELETE**: Ao inserir um registro no banco, pode ser necessário removê-lo no futuro, o que pode ser feito por meio da instrução `SQL DELETE`.
+
+> Conceito
+>
+> ## Recaptulando
+>
+> - Classes e Métodos em Python
+> - Bibliotecas e Módulos em Python
+> - Aplicação de banco de dados com Python
+
+# Linguagem de programação: Introdução a Biblioteca Pandas
+
+> Prof.ª Elisa Antolli
+
+> ## Contextualização
+>
+> - Linguagem de programação: Introdução a Biblioteca Pandas
+> - Introdução a Manipulação de Dados em Pandas
+> - Visualização de Dados em Python
+
+> Conceitos
+>
+> ## Linguagem de programação: Introdução a Biblioteca Pandas
+
+Pandas é um pacote Python que fornece estruturas de dados projetadas para facilitar o trabalho com dados estruturados (tabelas) e de séries temporais.
+
+Para utilizar a biblioteca pandas é preciso fazer a instalação.
+
+Pandas possui duas estruturas de dados que são as principais para análise/manipulação de dados: a **Series** e o **DataFrame**.
+
+Uma **Series** é um como um vetor de dados (unidimencional), capaz de armazenar diferentes tipos de dados.
+
+Um **DataFrame** é conjunto de Series, ou como a documentação apresentada, um contêiner para Series.
+
+Ambas estruturas, possuem como grande característica, a indexação das linhas, ou seja, cada linha possui um rótulo (nome) que o identifica, o qual pode ser uma string, um inteiro, um decimal ou uma data.
+
+A Figura abaixo ilustra uma Series (A) e um DataFrame (B).
+
+Veja que uma Series possui somente "uma coluna" de informação e seus rótulos (índices). Um DataFrame pode ter uma ou mais colunas e além dos índices, também há um rótulo de identificação com o nome da coluna. Podemos comparar um DataFrame como uma planilha eletrônica, como o Excel (da Microsoft) ou o Calc (do Open Office).
+
+![DataFrame](./images/DataFrame.png)
+
+![DataFrame2](./images/DataFrame2.png)
+
+Vamos importar a biblioteca antes de começar nossa primeira linha de código. Por convenção, a biblioteca é importada com o apelido (as) pd. Logo, para utilizar as funcionalidades, vamos utilizar a sintaxe pd.funcionalidades.
+
+```python
+import pandas as pd
+```
+
+- Series: Precisamos utilizar o método Series() do pacote pandas. O método possui o seguinte construtor: `pandas.Series(data=None, index=None, dtype=None, name=None, copy=False, fastpath=False)`.
+- Dentre todos os parâmetros esperados, somente um é obrigatório para se criar uma Series com dados (se for uma Series sem dados, nenhum parâmetro é obrigatório), o parâmetro data=XXX.
+
+> Exemplo:
+> ```python
+> import pandas as pd
+> 
+> pd.Series(data=5)
+> 
+> lista_nomes = 'Howard Ian Peter Jonh Kellie'.split()
+> 
+> pd.Series(lista_nomes) # Cria uma Series com o valor a lista_nomes = 'Howard Ian Peter Jonh Kellie'.split()
+> 
+> dados = {
+>     'nome1': 'Howard',
+>     'nome2': 'Ian',
+>     'nome3': 'Peter',
+>     'nome4': 'Jonah',
+>     'nome5': 'Kelie',
+> }
+> 
+> pd.Series(dados) # Cria uma Series com um dicionário
+> ```
+
+Criamos uma Series com um único valor, veja que aparece 0 como índice e 5 como valor.
+
+Quando não deixamos explícito os rótulos (índices) que queremos usar é construído um range de 0 até N-1, onde N é a quantidade de valores.
+
+Criamos uma Series a partir de uma lista de nomes, veja que agora os índices variam de 0 até 4 e o dtype é "object".
+
+Criamos uma Series a partir de um dicionário, a grande diferença desse tipo de dados na construção é que a chave do dicionário é usada como índice.
+
+```python
+import panas as pd
+
+series_dados = pd.Series([10.2, -1, None, 15, 23.4])
+print('Quantidade de linhas = ', series_dados.shape) # Retorna uma tupla com o número de linhas
+print('Tipo de dados ', series_dados.dtypes) # Retorna o tipo de dados, se for misto será objeto
+print('Os valores são únicos? ', series_dados.is_unique) # Verifica se os valores são únicos (sem duplicações)
+print('Existem valores nulos? ', series_dados.hasnas) # Verifica se existe valores nulos
+print('Quantos valores existem? ', series_dados.count()) # Conta quantos valores existem (excluí os nulos)
+```
+
+Criamos uma série contando números e um valor nulo (None). As informações extraídas são mais com relação a "forma" dos dados, portanto poderiam ser usadas independente do tipo de dado armazenado na Series, inclusive em um cenário de dados com diferentes tipos.
+
+```bash
+Quantidade de linhas = (5,)
+Tipo de dados float64
+Os valores são úncios? True
+Existem valores nulos? True
+Quantos valores existem? 4
+```
+
+```python
+import pandas as pd
+
+series_dados = pd.Series([10.2, -1, None, 15, 23.4])
+print('Qual o menor valor? ', series_dados.min()) # Extrei o menor número da Series (nesse caso os dados precisam ser do mesmo tipo)
+print('Qual o maior valor? ', series_dados.max()) # Extrai o número máximo, com a mesma condição do mínimo
+print('Qual a média aritmética? ', series_dados.mean()) # Extrai a média aritmética de uma Series numérica
+print('Qual o desvio padrão? ', series_dados.std()) # Extrai o desvio padrão de uma Series numérica
+print('Qual a mediana? ', series_dados.median()) # Extrai a mediana de uma Series numérica
+print('\nResumo:\n', series_dados.describe()) # Exibe um resuumo sobre os dados na Series
+```
+
+Já as informações neste caso, como se tratam de funções matemáticas e estatísticas, podem fazer mais sentido quando utilizadas para tipos numéricos.
+
+```bash
+Qual o menor valor? -1.0
+Qual o maior valor? 23.4
+Qual a média aritmética? 11.899999999999999
+Qual o desvio padrão? 10.184301645179211
+Qual a mediana? 12.6
+
+Resumo:
+ count     4.000000
+mean     11.900000
+std      10.184302
+min      -1.000000
+25%       7.400000
+50%      12.600000
+75%      17.100000
+max      23.400000
+dtype: float64
+```
+
+DataFrame: utilizar o método DataFrame() do pacote pandas. O método possui o seguinte construtor:
+
+`pandas.DataFrame(data=None, index=None, columns=None, dtype=None, copy=False)`.
+
+Veja que todos os parâmetros possuem valores padrões (default) o que permite instanciar um objeto de diferentes formas. Dentre todos os parâmetros esperados, somente um é obrigatório para se criar um DataFrame com dados, o parâmetro data=XXXX. Esse parâmetro pode receber, um objeto iterável, como uma lista, tupla, um dicionário ou um DataFrame.
+
+### Construtor DataFrame com lista
+
+Invocando o método DataFrame e passando como parâmetro a lista de nomes e um nome (rótulo) para a coluna. Essa construção é para criar um DataFrame, no qual cada lista passe a ser uma coluna.
+
+`pd.DataFrame(lista_nomes, columns=['nome'])`
+
+```python
+import pandas as pd
+
+
+lista_nomes = 'Howard Ian Peter Jonah Kellie'.split()
+
+pd.DataFrame(lista_nomes, columns=['nome'])
+
+print(pd.DataFrame(lista_nomes, columns=['nome']))
+```
+
+> Resultado
+>
+> ```bash
+>      nome
+> 0  Howard
+> 1     Ian
+> 2   Peter
+> 3   Jonah
+> 4  Kellie
+> ```
+
+### Construtor DataFrame com dicionário
+
+DataFrames também podem ser construídos a partir de estruturas de dados do tipo dicionário. Cada chave será uma coluna e pode ter atribuída uma lista de valores. Obs.: cada chave deve estar associada a uma lista de mesmo tamanho.
+
+### Extraindo informações de um DataFrame
+
+Cada objeto possui seus próprios atributos e métodos, logo, embora Series e DataFrame tenham recursos em comum, eles também possuem suas particularidades. No DataFrame temos o método **info()** que mostra quantas linhas e colunas existem.
+
+Também exibe o tipo de cada coluna e quantos valores não nulos existem ali. Esse método também retorna uma informação sobre a quantidade de memória RAM essa estrutura está ocupando.
+
+### Seleção de colunas em um DataFrame
+
+Podemos realizar operações em colunas específicas de um DataFrame ou ainda criar um novo objeto contendo somente as colunas que serão usadas em uma determinada análise. Para selecionar uma coluna, as duas possíveis sintaxes são:
+
+```python
+nome_df.nome_coluna
+nome_df[nome_coluna]
+```
+
+A primeira forma é familiar aos desenvolvedores que utilizam a linguagem SQL, porém ela não aceita colunas com espaços entre as palavras. Já a segunda aceita.
+
+Se precisarmos selecionar mais do que uma coluna, então precisamos passar uma lista, da seguinte forma:
+
+```python
+nome_df[['col1', 'col2', 'col3']]
+```
+
+Se preferir a lista pode ser criada fora da seção e passada como parâmetro. Através da seleção de certas colunas podemos extrair informações específicas e até compará-las com outras counas ou com outros dados.
+
+Esse recurso é muito utilizado por quem trabalha na área de dados.
+
+Um dos grandes recursos da biblioteca pandas é sua capacidade de fazer leitura de dados estruturados, através de seus métodos, guardando em um DataFrame.
+
+A biblioteca possui uma série de métodos "read", cuja sintaxe é: `pandas.read_XXXX()` onde a sequência de X representa as diversas opções disponíveis.
+
+Vamos utilizar o método `read_html()` para capturar os dados e carregar em um DataFrame.
+
+```python
+import pandas as pd
+
+url = 'https://en.wikipedia.org/wiki/Minnesota'
+
+dfs = pd.read_html(url)
+print(type(dfs))
+print(len(dfs))
+```
+
+*Sabendo que o tamanho da lista resultado do método é 1, então para obter a tabela que queremos, basta acessar a posição 0 da lista.*
+
+> Conceitos
+>
+> ## Introdução à manipulação de dados em Pandas
+
+### Métodos para leitura e escrita da biblioteca Pandas
+
+- A biblioteca Pandas foi desenvolvida para trabalhar com dados estruturados, ou seja, dados dispostos em linhas e colunas. Os dados podem estar gravados em arquivos, em páginas web, em APIs, em outros softwares, em objects stores (sistemas de armazenamento em cloud) ou em bancos de dados.
+- Para todas essas origens (e até mais), a biblioteca possui métodos capazes de fazer a leitura dos dados e carregar em um DataFrame.
+- Dentre todos os possíveis métodos para leitura, nessa aula vamos estudar o **read_json**, o **read_csv** e a função **read_sps**, que contempla a função **read_sel_query**.
+
+> - JSON (JavaScript Object Notation - Notação de Objetos JavaScripts) é uma formatação leve de troca de dados e independente de linguagem de programação.
+> - CSV (comma-separated values - valores separados por vírgulas) é um formato de arquivo, nos quais os dados são separados por um delimitador.
+
+### Leitura de JSON e CSV com Pandas
+
+É necessário fazer a importação da biblioteca, só precisamos importar uma única vez no notebook ou no script .py.
+
+```python
+import pandas
+```
+
+A leitura de um arquivo JSON deve ser feita com o método:
+
+![Leitura de JSON e CSV com Pandas](./images/LeituraDeJSONeCSVcomPandas.png)
+
+O único parâmetro que é obrigatório para se carregar os dados é o "path_or_buf", no qual deve ser passado um caminho para o arquivo ou um "arquivo como objeto" que é um arquivo lido com a função `open()`, por exemplo.
+
+Estamos usando o método **read_json** para carregar dados de uma API. Veja que estamos passando o caminho para o método. Nessa fonte de dados, são encontradas a taxa selic de cada dia.
+
+```python
+pd.read_json("https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json").head()
+```
+
+Para realizar o carregamento dos dados, é necessário incluir o caminho (diretório), portanto o parâmetro "**filepath_or_buffer**" é obrigatório.
+
+Outro parâmetro que é importante para a leitura desse arquivo é o **sep** ou **delimiter** (ambos fazem a mesma coisa), veja que sep, por padrão possui o valor ',', ou seja, caso não seja especificado nenhum valor, então o método fará a leitura dos dados considerando que estão separados por **vírgula**.
+
+O parâmetro header, tem como valor padrão 'infer', que significa que o método realiza a inferência para os nomes das colunas a partir da primeira linha de dados do arquivo.
+
+Além de vários métodos para carregar e salvar os dados, a biblioteca pandas possui uma diversidade de métodos para a transformação dos dados e a extração de informação para áreas de negócio.
+
+O trabalho com dados: capturar os dados em suas origens, fazer transformações nos dados a fim de padronizá-los, aplicar técnicas estatísticas clássicas ou algorítimos de **machine/deep learning** feito por engenheiros e cientistas de dados.
+
+Cada profissional atuando em uma parte específica, dependendo da organização da empresa. Em todo esse trabalho é comum fazer a divisão em duas etapas: **(i) captura e transformação/padronização dos dados**, **(ii) extração de informações**.
+
+> Conceitos
+>
+> ## Trabalhando com dados
+
+### Etapa de captura e transformação/padronização dos dados
+
+A extração dos dados podem ser realizada por meio do método `read_json()` e guardando em um DataFrame (DF) pandas. Ao carregar os dados em um DF, podemos visualizar quantas linhas e colunas, bem como os tipos de dados em cada coluna, com o método `info()`.
+
+<u>Remover linhas duplicadas</u>
+
+Para o carregamento de uma base de dados, um dos primeiros tratamentos que devemos fazer é remover os dados duplicados. Certamente, saber qual registro remover, depende da área de negócio e do problema a ser resolvido.
+
+Um DataFrame da biblioteca pandas possui o método `meu_df.drop_duplicates()` que permite fazer essa remoção de dados duplicados.
+
+**<u>Criar novas colunas</u>**
+
+A segunda transformação que veremos é como criar uma nova coluna. A sintaxe é similar a criar uma nova chave em um dicionário:
+
+`meu_df['nova_coluna'] = dado.`
+
+Ex.: Uma coluna que adiciona a data de extração das informações:
+
+```python
+import pandas as pd
+from datetime import date
+from datetime import datatime as dt
+
+lista_nomes = 'Howard Ian Peter Jonah Kellie'.split()
+
+dfs = pd.DataFrame(lista_nomes, columns=['nome'])
+
+print(pd.DataFrame(lista_nomes, columns=['nome']))
+
+data_extracao = data.today()
+dfs['data_extracao'] = data_extracao
+
+print(dfs.info())
+dfs.head()
+```
+
+```bash
+<class 'pandas.core.frame.DataFram'>
+RangeIndex: 5 entries, 0 to 4
+Data columns (total 2 columns):
+ #   Column         Non-Null Count  Dtype
+---  ------         --------------  -----
+ 0   nome           5 non-null      object
+ 1   data_extracao  5 non-null      object
+dtypes: object(2)
+memory usage: 208.0+ bytes
+None
+```
+
+**<u>Método to datatime() e astype()</u>**
+
+Trabalhar com o tipo "data" pode trazer vantagens, como por exemplo, ordenar da data mais recente para mais antiga. Vamos utilizar os métodos ***pandas.to_datatime()*** e ***minha_series.astype()*** para fazer a conversão e transformar as colunas data e data_extracao.
+
+Nessa conversão usamos o método **astype**, que transforma os dados de uma coluna (que é uma Series) em um determinado tipo, nesse caso, o tipo <u>datetime</u> especificado. Com astype() podemos padronizar valores das colunas, por exemplo, transformando todos em **float**, ou **int**, ou **str**, ou outro tipo. Vamos ver que agora, ao usar o método info(), temos que ambas colunas são do tio datetime (datetime da biblioteca pandas).
+
+O formato resultante ano-mês-dia é um padrão do datetime64[ns], que segue o padrão internacional, no qual o ano vem primeiro, seguido do mês e por último o dia.
+
+Poderíamos usar o stftime() para transformar o traço em barra (/), mas aí o resultado seriam strings e não datas.
+
+*O formato resultante ano-mês-dia é um padrão do datetime64[ns], que segue o padrão internacional, no qual o ano vem primeiro, seguido do mês e por último o dia*.
+
+```python
+data_extracao = date.today()
+dfs['data_extracao'] = data_extracao
+dfs['data_extracao'] = dfs['data_extracao'].astype('datetime64[ns]')
+
+print(dfs.info())
+dfs.head()
+```
+
+```bash
+<class 'pandas.core.frame.DataFrame'>
+RangeIncex: 5 entries, 0 to 4
+Data columns (total 2 columns):
+ #   Column         Non-Null Count  Datype
+---  ------         --------------  ------
+ 0   nome           5 non-null      object
+ 1   data_extracao  5 nom-null      datetime64[ns]
+dtypes: datetime64[ns](1), object(1)
+memory usage: 208.0+ bytes
+None
+```
+
+**Series.str**: Quando selecionamos uma coluna no DF sabemos que o resultado é uma Series e esse objeto tem um recurso "**str**", que permite aplicar as funções de string para todos os valores da Series.
+
+Acessamos o recurso str e aplicamos o método **upper()**. Dessa forma, a biblioteca pandas "entende" que queremos converter todos os valores dessa coluna para letras maiúsculas.
+
+**Método serot_values()**: **sort_values()** que permite ordenar o DF, de acordo com os valores de uma coluna. Esse método é do DataFrame, por isso a notação `meu_df.metodo()`. Utilizamos três parâmetros do método `sort_values`, o primeiro informando qual coluna deve ser usada para ordenar, o segundo, para que seja feito em ordem decrescente (do maior para o menor) e o terceiro (`inplace=True`) significa que queremos modificar o próprio objeto, na prática estamos sobrescrevendo o DF.
+
+```python
+data_extracao = date.today()
+dfs['data_extracao'] = data_extracao
+dfs['data_extracao'] = dfs['data_extracao'].astype('datetimes64[ns]')
+dfs.sort_values(by='data_extracao', ascending=False, inplace=True)
+
+print(dfs.head())
+```
+
+```bash
+    nome
+0 Howard
+1 Ian
+2 Peter
+3 Jonah
+4 Kellie
+    nome data_extracao
+0 Howard    2022-11-10
+1 Ian       2022-11-10
+2 Peter     2022-11-10
+3 Jonah     2022-11-10
+4 Kellie    2022-11-10
+```
+
+```python
+data_extracao = dt.now()
+dfs['data_extracao'] = data_extracao
+dfs['data_extracao'] = dfs['data_extracao'].astype('datetime64[ns]')
+dfs=dfs.append({'nome' : 'TESTE' , 'data_extracao' : dt(2020, 5, 17)} , ignore_index=True)
+
+dfs.sort_values(by='data_extracao', ascending=Fasle, inplace=True)
+
+print(dfs)
+```
+
+```bash
+     nome              data_extracao
+0  Howard 2022-11 10 17:06:21.838743
+1     Ian 2022-11 10 17:06:21.838743
+2   Peter 2022-11 10 17:06:21.838743
+3   Jonah 2022-11 10 17:06:21.838743
+4  Kellie 2022-11 10 17:06:21.838743
+5   TESTE 2020-05 17 00:00:00.000000
+```
+
+**<u>Método reset index() e set index()</u>**
+
+Nenhuma transformação afeta o índice, lembra-se como não especificamos rótulos ele usa um intervalo numérico, mas esse intervalo é diferente da posição de um vetor, pois é um nome e vai acompanhar a linha independente da transformação.
+
+As únicas formas de alterar o índice são com os métodos **reset_index()** e **set_index()**. o primeiro redefine o índice usando o padrão e o segundo define novos índices.
+
+Durante a  transofrmação dos dados, pode ser necessário definir novos valores para os índices, ao índices de usar o range numérico. Essa transformação pode ser feita usando o método **meu_df.set_index()**. O método permite especificar os novos valores usando uma coluna já existente ou então passando uma lista, de tamanho igual a quantidade de linhas.
+
+**<u>Filtros com loc</u>**
+
+Um dos recursos mais utilizados por equipes das áreas de dados é a aplicação de filtros. A distinção por gênero, por exemplo, pode ser um filtro.
+
+Um exemplo de filtro poderia possibilitar comparar a idade de todos, com a idade de cada grupo e entender se as mulheres ou homens estão abaixo ou acima da média geral.
+
+DataFrames da biblioteca pandas possuem uma propriedade chamada **loc**, essa propriedade permite acessar um conjunto de linhas (filtrar linhas), por meio do índice ou por um vetor booleano (vetor de **True** ou **False**).
+
+**<u>Filtros com testes booleanos</u>**
+
+Podemos usar operadores relacionais e lógicos para fazer testes condicionais com os valores das colunas de um DF.
+
+Ao criarmos um teste condicional, internamente, a biblioteca testa todas as linhas do DF ou da Series, retornando uma Series booleana, ou seja, composta por valores **True** ou **False**.
+
+O teste condicional pode ser construído também utilizando operadores lógicos. Para a operação lógica **AND** (E), em pandas, usa-se o caracter **&**. Para fazer a operação lógica OR (OU), usa-se o caracter **|**.
+
+Cada teste deve estar entre parênteses, senão ocorre um erro.
+
+ao criar as condições, basta aplicá-las no DataFrame para criar o filtro.
+
+a construção é feita passando a condição para a propriedade **loc**.
+
+| Nome | Idade |
+| :----: | :---: |
+| Howard | 30 |
+| Ian    | 30 |
+| Peter  | 30 |
+| Jonah  | 30 |
+| Kellie | 30 |
+| TESTE | 25 |
+
+```python
+dfs = pd.DataFrame(lista_nomes, columns=['nome'])
+
+dfs['idade'] = 30
+dfs=dfs.append({'nome' : 'TESTE' , 'idade' : 25} , ignore_index=True)
+
+#print(dfs)
+
+print(dfs.log[(dfs['idade'] < 30)])
+```
+
+```bash
+    nome  idade
+5  TESTE  25
+```
+
+**<u>Banco de dados com pandas</u>**
+
+Além dos métodos para acessar arquivos, a biblioteca pandas possui dois métodos que permitem executar instruções SQL em banco de dados.
+
+1. `pandas.read_sql(sql, con, index_col=None, coerce_float=True, params=None, parse_dates=None, columns=None, chunksize=None)`
+2. `pandas.read_sql_query(sql, con, index_col=None, coerce_float=True, params=None, parse_dates=None, chunksize=None)`
+
+> *O mínimo de parâmetros que ambos métodos exigem é a instrução SQL e uma conexão com um banco de dados (con). A conexão com o banco de dados, deve ser feita usando uma outra biblioteca, por exemplo, sqlalchemy (suporte para diversos bancos), pyodbc para SQL Server, cx_Oracle para Oracle, psycopg2 para Postgresql, dentre outros.*
+
