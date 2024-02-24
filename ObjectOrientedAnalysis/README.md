@@ -28,7 +28,7 @@
   - [Construção](#constru%C3%A7%C3%A3o "Construção")
   - [Transição](#transi%C3%A7%C3%A3o "Transição")
 
-- [Características](# Características)
+- [Características](#caracter%C3%ADsticas "Características")
 
 ---
 
