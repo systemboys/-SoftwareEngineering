@@ -30,6 +30,8 @@
 
 - [Características](#caracter%C3%ADsticas "Características")
 
+- [Fases do processo unificado](#fases-do-processo-unificado "Fases do processo unificado")
+
 ---
 
 ## UML
@@ -314,3 +316,6 @@ Vamos detalhar cada uma das características do Processo Unificado (PU) que voc�
 
 Essas características fazem do PU um processo flexível e adaptável, adequado para projetos de software de diferentes tamanhos e complexidades. Ele permite que as equipes de desenvolvimento respondam às mudanças nos requisitos e nos ambientes de negócio, entregando software de alta qualidade de forma iterativa e incremental.
 
+### Fases do processo unificado
+
+![Fases do processo unificado](./images/up.png)
