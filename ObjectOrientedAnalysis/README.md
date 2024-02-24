@@ -8,7 +8,7 @@
   - [Herança](#heran%C3%A7a "Herança")
   - [Polimorfismo](#polimorfismo "Polimorfismo")
   - [Encapsulamento](#encapsulamento "Encapsulamento")
-  
+
 - [Características da UML](#caracter%C3%ADsticas-da-uml "Características da UML")
 
 - [Objetivos da UML](#objetivos-da-uml "Objetivos da UML")
@@ -27,6 +27,8 @@
   - [Elaboração](#elabora%C3%A7%C3%A3o "Elaboração")
   - [Construção](#constru%C3%A7%C3%A3o "Construção")
   - [Transição](#transi%C3%A7%C3%A3o "Transição")
+
+- [Características](# Características)
 
 ---
 
@@ -298,5 +300,17 @@ A fase de Transição no Processo Unificado (PU) é a última etapa do desenvolv
 
 A fase de Transição é crítica para o sucesso do projeto, pois é nesta fase que o sistema é entregue aos usuários finais e deve atender às suas necessidades e expectativas. É importante garantir uma transição suave do desenvolvimento para a operação do sistema, minimizando interrupções e problemas para os usuários finais. Ao final da fase de Transição, o sistema deve estar totalmente operacional e pronto para uso pelos usuários finais.
 
+### Características
 
+Vamos detalhar cada uma das características do Processo Unificado (PU) que você mencionou:
+
+1. **Iterativo e Incremental**: O PU é iterativo, o que significa que o desenvolvimento ocorre em ciclos repetidos, chamados de iterações. Cada iteração produz uma versão do sistema que é incrementada com novas funcionalidades e melhorias em relação à iteração anterior. Isso permite que os stakeholders vejam resultados tangíveis do desenvolvimento em um estágio inicial e forneçam feedback, o que ajuda a garantir que o sistema atenda às suas expectativas.
+
+2. **Dirigido por uma Lista de Casos de Uso**: Os casos de uso são usados no PU para capturar os requisitos funcionais do sistema. Eles descrevem como os usuários interagem com o sistema para realizar tarefas específicas. A lista de casos de uso orienta o desenvolvimento, garantindo que o sistema seja projetado e implementado para atender aos requisitos dos usuários finais.
+
+3. **Focado na Arquitetura do Sistema**: O PU coloca uma forte ênfase na arquitetura do sistema desde o início do projeto. A arquitetura é desenvolvida e refinada ao longo das fases de Concepção e Elaboração, garantindo que a base do sistema seja sólida e capaz de suportar os requisitos futuros. Isso ajuda a evitar problemas de arquitetura que podem surgir mais tarde no desenvolvimento.
+
+4. **Orientado a Riscos**: O PU é orientado a riscos, o que significa que os riscos técnicos e de negócio são identificados e mitigados ao longo do processo de desenvolvimento. Isso é feito através da identificação precoce de riscos, do desenvolvimento de estratégias para lidar com esses riscos e do monitoramento contínuo dos riscos ao longo do projeto. O foco na mitigação de riscos ajuda a reduzir a probabilidade de problemas graves durante o desenvolvimento e a aumentar a probabilidade de sucesso do projeto.
+
+Essas características fazem do PU um processo flexível e adaptável, adequado para projetos de software de diferentes tamanhos e complexidades. Ele permite que as equipes de desenvolvimento respondam às mudanças nos requisitos e nos ambientes de negócio, entregando software de alta qualidade de forma iterativa e incremental.
 
