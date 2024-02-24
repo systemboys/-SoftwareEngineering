@@ -2072,3 +2072,135 @@ Além dos métodos para acessar arquivos, a biblioteca pandas possui dois métod
 
 > *O mínimo de parâmetros que ambos métodos exigem é a instrução SQL e uma conexão com um banco de dados (con). A conexão com o banco de dados, deve ser feita usando uma outra biblioteca, por exemplo, sqlalchemy (suporte para diversos bancos), pyodbc para SQL Server, cx_Oracle para Oracle, psycopg2 para Postgresql, dentre outros.*
 
+> Conceitos
+>
+> ## Visualização de dados em Python
+
+**<u>Bibliotecas e funções para criação de gráficos</u>**
+
+Para a criação de gráficos em Python são utilizadas as bibliotecas <u>matplotib</u> e outras baseadas na matplotlib, além de funções que permitem criar e personalizar os gráficos.
+
+**<u>Matplotlib</u>**
+
+A instalação da biblioteca pode ser feita via pip install: `pip install matplotlib`, lembrando que em ambientes como o projeto Anaconta e o Colab esse recurso já está disponível.
+
+Existem duas sintaxes que são amplamente adotadas para importar essa biblioteca para o projeto:
+
+```python
+import matplotlib.pyplot as plt
+```
+
+```python
+from matplotlib import pyplot as plt
+```
+
+Em ambas formas de importação utilizamos o apelido de "plt" que é uma convenção adotada para facilitar o uso das funções.
+
+Ao trabalharmos no jpyter notebook com o kernel do IPypthon (o kernel do IPython é o backend de execução do Python para o Jupyter), podemos habilitar uma opção para fazer a impressão do gráfico "inline", ou seja, no próprio notebook. Para habilitar utiliza-se a sintaxe `%matplotlib inline`.
+
+Portanto, projetos no jupyter notebook, que utilizem o matplotlib sempre terão no começo, os comandos a seguir.
+
+```python
+from matplotlib import pyplot as plt
+%matplotlib inline
+```
+
+Vamos criar duas listas aleatórias de valores inteiros com o módulo random e então plotar um gráfico de linhas, com a função **plt.plot()** do módulo pyplot.
+
+Após criar duas listas com valores aleatórios, a função plot() as recebe como parâmetros, utilizando-as para os valores dos eixos **horizontal** (x) e **vertical** (y) e já cria o gráfico.
+
+<u>Parâmetros e muitos outros, podem ser configurados!</u>
+
+> Exemplo
+>
+> ```python
+> import matplotlib.pyplot as plt
+> import random
+> 
+> dados1 = random.sample(range(100), k=20)
+> dados2 = random.sample(range(100), k=20)
+> 
+> plt.plot(dados1, dados2) # Pyplot gerencia a figura e o exio
+> ```
+>
+> ![Matplotlib 1](./images/Matplotlib_1.png)
+
+**<u>Existem essencialmente duas maneiras de usar o Matplotlib</u>**:
+
+Deixar para o pyplot criar e gerenciar automaticamente figuras e eixos, e usar as funções do pyplot para plotagem.
+
+Criar explicitamente figuras e eixos e chamar métodos sobre eles (o "estilo orientado a objetos (OO)").
+
+No gráfico que criamos, nós utilizamos a opção 1, ou seja, foi o próprio módulo que criou o ambiente da figura e do eixo.
+
+Ao utilizar a segunda opção, podemos criar uma figura com ou sem eixos, com a função **plt.supblots()**, que quando invocada sem parâmetros, cria um layout de figura com 1 linha e a coluna.
+
+**Bilioteca pandas**
+
+As principais estruturas de dados da biblioteca pandas (Series e DataFrame) possuem o método **plot()**, construído com base no matplotlib e que permite criar gráficos a partir dos dados nas estruturas.
+
+A partir de um DataFrame, podemos invocar o método:
+
+```python
+df.plot(*args, **kwargs)
+```
+
+Para criar os gráficos. Os argumentos dessa função, podem variar, mas existem três que são triviais: os **nomes** das colunas com os dados para os eixos **x** e **y**, bem como o tipo de gráfico (kind).
+
+**Biblioteca seaborn**
+
+Seaborn é outra biblioteca Python, também baseada na matplotlib, que foi desenvolvida especificamente para criação de gráficos. Seaborn pode ser instalado via pi install: `pip install seaborn`, e para utilizar no projeto existe uma convenção para sintaxe:
+
+```python
+import seaborn as sns
+```
+
+A biblioteca conta com um repositório de datasets que podem ser usados para explorar as funcionalidades. O tipo de dados que uma coluna possui é muito importante para a biblioteca seborn, uma vez que as funções usadas para construir os gráficos são divididas em grupos: relacional, categóricos, distribuição, regressão, matriz e grid.
+
+**Função barplot()**
+
+Dentro do grupo de funções para gráficos de variáveis categóricas, temos o **barplot()**, que permite criar gráficos de barras, mas... por que usaríamos essa função e não a da biblioteca pandas?
+
+A resposta está nas opções de parâmetros que cada biblioteca suporta. Construtor da função bartplot possui uma série de parâmetros estatísticos, que dão muita flexibilidade e poder aos cientista de dados, vamos falar sobre o parâmetro "**estimator**", que por default é a função média. Isso significa que cada barra do gráfico, exibirá a média dos valores de uma determinada coluna, o que pode não fazer sentido, uma vez que queremos exibir a quantidade dos valores (len) ou a soma (sum).
+
+Existem muitos conceitos estatísticos envolvidos e a biblioteca saborn fornece mecanismos para que essas informações estejam presentes nos resultados visuais.
+
+**Função countplot()**
+
+Esse método não aceita que sejam passados valores de x e y ao mesmo tempo, pois a contagem será feita sobre uma variável categórica, portanto devemos especificar **x** ou **y**, a diferença será na orientação do gráfico. Se informamos **x**, teremos um gráfico na *vertical*, se **y**, na *horizontal*.
+
+**Função scartterplot()**
+
+Os gráficos do grupo relaciona, permitem avalizar, de forma visual a relação entre duas variáveis: **x**, **y**. O gráfico scatterplot é muito utilizado por cientistas de dados que estão buscando por padrões nos dados.
+
+**Função countplot()**
+
+> Como definir
+>
+> ```python
+> df = sns.load_dataset("titanic")
+> sns.countplot(x=df["class"])
+> ```
+>
+> ![Countplot()](./images/Countplot().png)
+
+**Função scartterplot()**
+
+> Como definir
+>
+> ```python
+> sns.scatterplot(data=tips, x="total_bill", y="tip")
+> ```
+>
+> ![Scartterplot()](./images/scartterplot().png)
+
+---
+
+> Conceitos
+>
+> ## Recaptulando
+
+- Linguagem de programação: Introdução à Biblioteca pandas
+- Introdução à Manipulação de Dados em Pandas
+- Visualização de Dados em Python
+
