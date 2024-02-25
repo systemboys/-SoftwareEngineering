@@ -319,3 +319,33 @@ Essas características fazem do PU um processo flexível e adaptável, adequado 
 ### Fases do processo unificado
 
 ![Fases do processo unificado](./images/up.png)
+
+### Flux de trabalho
+
+![Flux_de_trabalho](./images/Flux_de_trabalho.png)
+
+Aqui está uma explicação sobre cada um dos itens em relação ao fluxo de trabalho em um projeto de desenvolvimento de software:
+
+1. **Modelo de negócios**: Nesta etapa, é importante definir o modelo de negócios que guiará o projeto. Isso envolve identificar a necessidade de mercado, entender a viabilidade financeira do projeto, analisar a concorrência e definir a estratégia de como o produto ou serviço será monetizado.
+
+2. **Requisitos**: Aqui, os requisitos do sistema são coletados, analisados e documentados. Isso inclui requisitos funcionais (o que o sistema deve fazer) e requisitos não funcionais (qualidades que o sistema deve possuir, como desempenho, usabilidade, etc.). Essa etapa é fundamental para garantir que o produto final atenda às necessidades do cliente.
+
+3. **Análise e projeto**: Nesta etapa, os requisitos são analisados em detalhes e um projeto detalhado do sistema é elaborado. Isso envolve a criação de diagramas, como diagramas de caso de uso, diagramas de classe, entre outros, que descrevem como o sistema funcionará. O objetivo é garantir que o sistema seja bem projetado e atenda aos requisitos identificados anteriormente.
+
+4. **Implementação**: Aqui, o código do sistema é desenvolvido com base no projeto elaborado na etapa anterior. Os programadores escrevem o código-fonte do sistema, seguindo as melhores práticas de programação e utilizando as tecnologias adequadas. Esta etapa é crucial para transformar o design do sistema em um produto funcional.
+
+5. **Teste**: Após a implementação, o sistema é testado para garantir que ele funcione conforme esperado e atenda aos requisitos definidos. Os testes podem incluir testes unitários, testes de integração, testes de sistema e testes de aceitação pelo usuário. O objetivo é identificar e corrigir quaisquer problemas antes da entrega do sistema ao cliente.
+
+6. **Entrega**: Finalmente, o sistema é entregue ao cliente para uso. Nesta etapa, o sistema pode ser implantado em produção e disponibilizado para os usuários finais. É importante garantir que o sistema esteja devidamente documentado e que os usuários sejam treinados para utilizar o sistema de forma eficaz.
+
+Esses são os principais elementos do fluxo de trabalho em um projeto de desenvolvimento de software, cada um desempenhando um papel fundamental no sucesso do projeto.
+
+| Etapas 1 e 2<br />(Cencepção e Eleboração) | Etapas 3<br />(Contrução) | Etapas 4<br />(Transição) |
+| :----------------------------------------: | :-----------------------: | :-----------------------: |
+|                Casos de uso                |          Classes          |         Transição         |
+|                 Sequência                  |        Sequeência         |         Sequência         |
+|                Colaboração                 |        Colaboração        |        Colaboração        |
+|                 Atividades                 |        Atividades         |        Componentes        |
+|             Máquinas de estado             |    Máquinas de estado     |                           |
+|                                            |        Instalação         |                           |
+
