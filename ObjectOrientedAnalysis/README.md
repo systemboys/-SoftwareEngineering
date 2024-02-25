@@ -34,6 +34,9 @@
 
 - [Flux de Trabalho](#flux-de-trabalho "Flux de Trabalho")
 
+  - [Concatenação das fazes dos respectivos diagramas](#concatena%C3%A7%C3%A3o-das-fazes-dos-respectivos-diagramas "Concatenação das fazes dos respectivos diagramas")
+
+
 ---
 
 ## UML
