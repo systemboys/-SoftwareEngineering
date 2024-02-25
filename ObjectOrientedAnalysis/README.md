@@ -32,6 +32,8 @@
 
 - [Fases do processo unificado](#fases-do-processo-unificado "Fases do processo unificado")
 
+- [Flux de Trabalho](#flux-de-trabalho "Flux de Trabalho")
+
 ---
 
 ## UML
@@ -339,6 +341,8 @@ Aqui está uma explicação sobre cada um dos itens em relação ao fluxo de tra
 6. **Entrega**: Finalmente, o sistema é entregue ao cliente para uso. Nesta etapa, o sistema pode ser implantado em produção e disponibilizado para os usuários finais. É importante garantir que o sistema esteja devidamente documentado e que os usuários sejam treinados para utilizar o sistema de forma eficaz.
 
 Esses são os principais elementos do fluxo de trabalho em um projeto de desenvolvimento de software, cada um desempenhando um papel fundamental no sucesso do projeto.
+
+### Concatenação das fazes dos respectivos diagramas
 
 | Etapas 1 e 2<br />(Cencepção e Eleboração) | Etapas 3<br />(Contrução) | Etapas 4<br />(Transição) |
 | :----------------------------------------: | :-----------------------: | :-----------------------: |
