@@ -152,7 +152,7 @@ Essas quatro atividades são fundamentais para o processo de engenharia de softw
 
 > Modelo em Cascata
 
-![Modelo Cascata](/home/marcos/Documentos/Projects/SoftwareEngineering/SoftwareEngineering/images/Process_Models_-_Waterfall.png)
+![Modelo Cascata](./images/Process_Models_-_Waterfall.png)
 
 São na verdade, fases típicas encontradas em muitos modelos de processos de software. Vamos discutir cada um deles:
 
@@ -170,7 +170,7 @@ Essas fases são comuns a muitos modelos de processos de software, incluindo o m
 
 > Modelo Espiral
 
-![Modelo Espiral](/home/marcos/Documentos/Projects/SoftwareEngineering/SoftwareEngineering/images/Process_Models_-_Spiral.png)
+![Modelo Espiral](./images/Process_Models_-_Spiral.png)
 
 O **Modelo de Processo Espiral** é um modelo de desenvolvimento de software que combina elementos do design iterativo e do modelo em cascata, com um foco especial na gestão de riscos. Ele é dividido em várias fases:
 
@@ -190,7 +190,7 @@ Uma característica única do modelo espiral é que ele é iterativo, o que sign
 
 > Modelo **V**
 
-![Modelo V](/home/marcos/Documentos/Projects/SoftwareEngineering/SoftwareEngineering/images/Process_Models_-_V.png)
+![Modelo V](./images/Process_Models_-_V.png)
 
 O **Modelo de Processo em V** é um modelo de desenvolvimento de software que ilustra as relações entre cada fase do ciclo de vida do desenvolvimento e seu fase de teste associada. As fases do Modelo em V são:
 
@@ -214,7 +214,7 @@ No final de todas essas etapas, temos o "Software Executável", que é o produto
 
 > Modelo Incremental
 
-![Modelo Incremental](/home/marcos/Documentos/Projects/SoftwareEngineering/SoftwareEngineering/images/Process_Models_-_Incremental.png)
+![Modelo Incremental](./images/Process_Models_-_Incremental.png)
 
 Modelo Incremental no desenvolvimento de software com base na imagem.
 
