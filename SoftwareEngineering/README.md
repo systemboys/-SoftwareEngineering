@@ -297,3 +297,19 @@ Características fundamentais das metodologias ágeis na engenharia de software.
 
 Esses princípios ajudam as equipes a entregar produtos de alta qualidade de maneira eficiente e eficaz, enquanto se adaptam às mudanças nas necessidades do negócio. Isso é especialmente útil em ambientes de negócios dinâmicos e incertos.
 
+### Metodologia Ágil - *Extreme Programming* (XP)
+
+Extreme Programming (XP) é uma metodologia ágil de desenvolvimento de software que enfatiza a entrega de alta qualidade e funcionalidade ao cliente.
+
+1. **Desenvolvimento Rápido**: XP utiliza um ciclo de desenvolvimento curto e iterativo, o que permite um rápido desenvolvimento e entrega de funcionalidades. Isso é alcançado através de práticas como programação em pares, desenvolvimento orientado a testes (TDD) e integração contínua.
+
+2. **Requisitos em Constante Mudança**: XP aceita que os requisitos do software podem mudar frequentemente. Para lidar com isso, utiliza-se o planejamento de releases e iterações, permitindo que os requisitos sejam atualizados e priorizados regularmente.
+
+3. **Valores do XP**:
+    - **Comunicação**: A comunicação eficaz é fundamental no XP. A programação em pares, as reuniões de stand-up diárias e a presença do cliente na equipe são algumas das maneiras pelas quais o XP enfatiza a comunicação.
+    - **Simplicidade**: XP incentiva a equipe a fazer o que é necessário hoje e evitar a super-engenharia. O código deve ser simples de entender e modificar.
+    - **Feedback**: O feedback rápido é essencial no XP. Isso é alcançado através de práticas como TDD, integração contínua e revisões de código.
+    - **Coragem**: XP enfatiza a coragem para enfrentar problemas, fazer mudanças necessárias no código e adaptar-se a novos requisitos.
+
+Esses princípios e práticas ajudam as equipes a responder rapidamente às mudanças, melhorar a qualidade do software e proporcionar maior satisfação ao cliente.
+
