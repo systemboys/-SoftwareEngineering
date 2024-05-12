@@ -232,3 +232,68 @@ O processo é então repetido, entregando um novo conjunto de incrementos de sof
 
 Este modelo é flexível e menos custoso para mudar o escopo e os requisitos. Ele permite que partes do sistema sejam desenvolvidas e entregues aos clientes de maneira incremental. É uma boa escolha para grandes projetos com requisitos incertos e complexos. No entanto, requer uma definição clara e completa do sistema e pode ser um modelo caro de usar.
 
+> Conceitos
+
+## Metodologia Ágil
+
+A Metodologia Ágil é uma abordagem de desenvolvimento de software que se baseia em valores e princípios que priorizam a colaboração entre equipes, a entrega de valor ao cliente e a capacidade de adaptação a mudanças. Aqui estão alguns pontos importantes sobre a Metodologia Ágil:
+
+1. **Iteratividade (repetição)**: Os métodos ágeis são baseados em ciclos iterativos e incrementais de trabalho. O gerenciamento com essa abordagem é dividido em iterações menores, permitindo que partes funcionais do produto sejam entregues em intervalos regulares, em vez de esperar até o fim do projeto para entregar um produto final.
+
+2. **Colaboração**: Esses métodos incentivam a colaboração e a comunicação entre todas as pessoas da equipe, bem como com os stakeholders do projeto. Uma das características das equipes ágeis é trabalhar de forma interdisciplinar, promovendo a troca constante de ideias, conhecimentos e experiências.
+
+3. **Autonomia e empoderamento das equipes**: A colaboração gera mais autonomia e empoderamento dessas equipes, pois as pessoas são incentivadas a se auto-organizarem, a tomar decisões e a definir o melhor caminho para atingir os objetivos do projeto.
+
+4. **Entrega de valor**: Esses atributos dos métodos ágeis e sua cultura de experimentação favorecem a entrega de valor, pois, ao priorizarem entregas contínuas e incrementos de valor em cada iteração, permitem que clientes e stakeholders obtenham benefícios tangíveis mais cedo e possam fornecer feedbacks para orientar o desenvolvimento do projeto.
+
+A Metodologia Ágil surgiu em meados da década de 1990, em contraponto aos métodos tradicionais, vistos como burocráticos, lentos e ineficientes. Ela é uma resposta aos desafios impostos pelas metodologias tradicionais, principalmente no mercado de engenharia de software.
+
+### Histórico
+
+Vamos falar sobre a história da Metodologia Ágil:
+
+***Meados de 1990***
+
+A Metodologia Ágil teve origem no final da década de 1990 como uma alternativa aos métodos tradicionais de gerenciamento de projetos. Durante esse período, muitas empresas estavam insatisfeitas com os resultados obtidos por meio dos métodos cascata, nos quais todas as fases do projeto eram definidas antecipadamente e seguidas de forma linear. 
+
+***2001: Surgimento e Propagação de Paradigmas de Desenvolvimento de Software Ágeis***
+
+No início, a metodologia ágil era composta por práticas como Extreme Programming (XP) e Scrum. Essas abordagens enfatizavam a colaboração em equipe, iteração contínua e entrega de valor ao cliente em curtos períodos de tempo. Ao longo dos anos, a metodologia ágil evoluiu e foi adotada por uma variedade de setores além do desenvolvimento de software.
+
+***Manifesto Ágil***
+
+O Manifesto Ágil é um documento que foi criado em fevereiro de 2001 por um grupo de 17 especialistas que já praticavam métodos ágeis como XP, DSDM, SCRUM, FDD e outros. O manifesto estabelece os princípios fundamentais da metodologia ágil. Os signatários do manifesto acreditavam que a colaboração próxima entre os membros da equipe, a resposta rápida às mudanças e a entrega de valor incremental eram essenciais para o sucesso de um projeto.
+
+Os princípios fundamentais do Manifesto Ágil são:
+
+1. **Indivíduos e interações** mais que processos e ferramentas
+2. **Software em funcionamento** mais que documentação abrangente
+3. **Colaboração com o cliente** mais que negociação de contratos
+4. **Responder a mudanças** mais que seguir um plano
+
+### Motivação para a criação da metodologia ágil
+
+A Metodologia Ágil foi criada como uma resposta aos métodos tradicionais de desenvolvimento de software, que eram vistos como rígidos, pesados e excessivamente focados em documentação. Aqui estão algumas das principais motivações para a criação da Metodologia Ágil:
+
+1. **Menos centradas em documentação**: Os métodos tradicionais de desenvolvimento de software muitas vezes exigiam uma grande quantidade de documentação antes que qualquer código fosse escrito. Isso poderia atrasar o início do desenvolvimento e tornar difícil a adaptação a mudanças. A Metodologia Ágil, por outro lado, valoriza "software em funcionamento mais que documentação abrangente".
+
+2. **São adaptativas em vez de predeterminantes**: Os métodos tradicionais muitas vezes tentavam prever todas as necessidades do projeto no início, o que é quase impossível em projetos complexos. A Metodologia Ágil aceita que as necessidades do projeto vão mudar ao longo do tempo e se adapta a essas mudanças.
+
+3. **Aceitam mudanças ao longo do desenvolvimento de maneira natural**: Em vez de resistir a mudanças, como muitas vezes acontece nos métodos tradicionais, a Metodologia Ágil vê a mudança como algo natural e até mesmo desejável. Ela valoriza "responder a mudanças mais que seguir um plano".
+
+4. **Orientados a pessoas e não a processos**: A Metodologia Ágil coloca as pessoas no centro do processo de desenvolvimento. Ela valoriza "indivíduos e interações mais que processos e ferramentas". Isso significa que a Metodologia Ágil dá ênfase à colaboração, à comunicação e à capacidade das equipes de se auto-organizarem.
+
+### Características fundamentais das Metodologias Ágeis
+
+Características fundamentais das metodologias ágeis na engenharia de software. Aqui está um resumo mais detalhado:
+
+1. **Planejamento Incremental e Iterativo**: As metodologias ágeis, como Scrum e XP, enfatizam a entrega incremental e iterativa de software funcional. Isso permite que as equipes obtenham feedback rápido e façam ajustes conforme necessário.
+
+2. **Enfoque nos Fatores Humanos**: As metodologias ágeis valorizam as interações individuais e a colaboração da equipe acima de processos e ferramentas. Elas reconhecem que o sucesso do projeto depende das pessoas envolvidas e de como elas trabalham juntas.
+
+3. **Adaptação a Mudanças**: Em vez de seguir um plano fixo, as metodologias ágeis são projetadas para se adaptar às mudanças. Elas aceitam que os requisitos podem mudar ao longo do tempo e fornecem mecanismos para lidar com essas mudanças.
+
+4. **Envolvimento do Cliente**: As metodologias ágeis enfatizam a colaboração estreita com os clientes e a inclusão deles no processo de desenvolvimento. Isso ajuda a garantir que o produto final atenda às suas necessidades e expectativas.
+
+Esses princípios ajudam as equipes a entregar produtos de alta qualidade de maneira eficiente e eficaz, enquanto se adaptam às mudanças nas necessidades do negócio. Isso é especialmente útil em ambientes de negócios dinâmicos e incertos.
+
