@@ -271,7 +271,7 @@ Os princípios fundamentais do Manifesto Ágil são:
 3. **Colaboração com o cliente** mais que negociação de contratos
 4. **Responder a mudanças** mais que seguir um plano
 
-### Motivação para a criação da metodologia ágil
+### Motivação para a criação da Metodologia Ágil
 
 A Metodologia Ágil foi criada como uma resposta aos métodos tradicionais de desenvolvimento de software, que eram vistos como rígidos, pesados e excessivamente focados em documentação. Aqui estão algumas das principais motivações para a criação da Metodologia Ágil:
 
@@ -312,4 +312,108 @@ Extreme Programming (XP) é uma metodologia ágil de desenvolvimento de software
     - **Coragem**: XP enfatiza a coragem para enfrentar problemas, fazer mudanças necessárias no código e adaptar-se a novos requisitos.
 
 Esses princípios e práticas ajudam as equipes a responder rapidamente às mudanças, melhorar a qualidade do software e proporcionar maior satisfação ao cliente.
+
+> Ciclo da XP
+
+![Metodologia Ágil - Extreme Programming (XP)](./images/Agile_Methodology_-_Extreme_Programming.png)
+
+Explicação com base na imagem mostra, o ciclo da XP (Extreme Programming), uma metodologia de desenvolvimento ágil de software. Aqui estão as fases do ciclo:
+
+1. **Planejamento**: Esta fase envolve a consideração de histórias de usuários, valores, critérios de teste de aceitação e plano de iteração. As histórias de usuários ajudam a entender os requisitos do usuário final. Os valores e critérios de teste de aceitação ajudam a definir o que é necessário para o software ser considerado completo. O plano de iteração ajuda a organizar o trabalho em pequenos incrementos.
+
+2. **Projeto**: Esta fase envolve um projeto simples, cartões CRC (Class Responsibility Collaboration) e soluções pontuais ou protótipos. O projeto simples ajuda a manter o código limpo e fácil de entender. Os cartões CRC são uma ferramenta para ajudar no design de classes e na identificação de responsabilidades e colaborações entre elas. Soluções pontuais ou protótipos são usados para explorar possíveis soluções para problemas complexos.
+
+3. **Codificação**: Esta fase inclui programação em pares e refatoração contínua. A programação em pares ajuda a melhorar a qualidade do código e a compartilhar conhecimento entre a equipe. A refatoração contínua ajuda a manter o código limpo e fácil de manter.
+
+4. **Teste**: Esta fase envolve teste de unidades e integração contínua. O teste de unidades ajuda a verificar se cada parte do software funciona como esperado. A integração contínua ajuda a garantir que todas as partes do software funcionem juntas.
+
+No final do ciclo, há um incremento do software e a velocidade do projeto é calculada. O incremento do software é a adição de novas funcionalidades ao software. A velocidade do projeto é uma medida de quanto trabalho a equipe pode completar em uma iteração.
+
+## Equipe de Trabalho
+
+Aqui estão as responsabilidades desses papéis na metodologia Extreme Programming (XP):
+
+1. **Gerente de Projeto**: O Gerente de Projeto em XP serve como uma ponte entre a equipe, os clientes e eventuais fornecedores. Ele assegura que as pessoas certas dialoguem dentro da equipe e fora dela. Além disso, o gerente de projeto monitora o progresso da equipe e ajuda-a a perceber continuamente tudo o que já foi conquistado. Ele também é responsável por coordenar os recursos humanos, financeiros e materiais; monitorar os indicadores dos projetos; coordenar e gerenciar as equipes; garantir que a metodologia de gestão seja aplicada de forma coerente.
+
+2. **Coach**: O Coach em XP tem um papel proativo. Ele ajuda os clientes e desenvolvedores a escrever testes para as histórias, antes mesmo que elas sejam implementadas. Além disso, trabalha com os desenvolvedores ao longo da iteração, ajudando-os a automatizar os testes. O Coach também é responsável por identificar os pontos fortes e pontos de melhorias dos colaboradores e dos processos.
+
+3. **Analista de Teste**: Os Analistas de Teste em XP têm um papel proativo. No início de cada iteração, eles ajudam clientes e desenvolvedores a escrever testes para as histórias, antes mesmo que elas sejam implementadas. Além disso, trabalham com os desenvolvedores ao longo da iteração, ajudando-os a automatizar os testes. Quando a equipe não consegue automatizar alguns testes, os analistas de teste os executam manualmente.
+
+4. **Redator Técnico**: O Redator Técnico ajuda a equipe a criar e manter a documentação do projeto. Eles garantem que a documentação evolua de forma iterativa, atualizando os documentos mais perto do fim das iterações. Eles descrevem o que foi feito de fato pelos desenvolvedores, ao invés daquilo que eles combinaram que iriam fazer. Os redatores técnicos devem compreender quem é o público alvo das publicações, assegurar que a linguagem certa seja usada e fazer com que a informação seja atualizada continuamente. Além disso, eles devem monitorar o uso dos documentos e, na medida do possível, eliminar documentos que não estejam provendo valor para o projeto.
+
+5. **Desenvolvedor**: Os desenvolvedores em XP têm várias responsabilidades. Eles são encarregados de cuidar da inteligência do software, fazer a comunicação com outros sistemas para validar uma compra, por exemplo, junto com uma instituição financeira, e fornecer dados para o Front-end exibir na tela do usuário. Além disso, eles devem estar sempre em contato com o cliente e também em contato entre si. Eles também são responsáveis por codificar, testar e refatorar o software.
+
+### Metodologia Ágil - *Scrum*
+
+O **Scrum** é uma metodologia ágil que é amplamente utilizada no desenvolvimento de software e também pode ser aplicada em vários outros ambientes de trabalho. Ele é focado na gestão de projetos e tem como base o planejamento iterativo e incremental.
+
+Aqui estão alguns conceitos-chave do Scrum:
+
+1. **Sprints**: O trabalho é dividido em ciclos chamados Sprints, que geralmente duram de duas a quatro semanas. Cada Sprint tem um objetivo definido e uma lista de tarefas a serem concluídas.
+
+2. **Product Backlog**: É uma lista priorizada de tarefas ou histórias de usuários que precisam ser concluídas para o projeto. O Product Owner é responsável por manter e priorizar o Product Backlog.
+
+3. **Sprint Planning**: No início de cada Sprint, a equipe se reúne para planejar o trabalho que será realizado durante o Sprint. Eles selecionam tarefas do Product Backlog para trabalhar com base na prioridade e na estimativa de esforço.
+
+4. **Daily Scrum**: É uma reunião diária de 15 minutos onde a equipe discute o progresso e planeja o trabalho do dia.
+
+5. **Sprint Review**: No final de cada Sprint, a equipe se reúne para revisar o trabalho concluído e o que não foi concluído.
+
+6. **Sprint Retrospective**: Após a revisão do Sprint, a equipe se reúne para discutir o que funcionou bem, o que pode ser melhorado e como implementar melhorias no próximo Sprint.
+
+***Elementos da Scrum***
+
+Aqui estão os detalhes sobre os elementos do Scrum:
+
+1. **Gestão e planejamento de Software**: O Scrum é uma estrutura para gerenciar e planejar projetos de software. Ele permite que as equipes trabalhem de forma iterativa e incremental, com cada iteração chamada de Sprint. Durante o planejamento do Sprint, a equipe seleciona itens do Product Backlog (uma lista priorizada de requisitos do projeto) para trabalhar durante o próximo Sprint.
+
+2. **Reuniões Regulares (Stand-up Meeting)**: As reuniões diárias de Scrum, também conhecidas como Stand-up Meetings, são uma parte essencial do Scrum. Durante essas reuniões curtas, cada membro da equipe discute o que eles fizeram no dia anterior, o que planejam fazer no dia atual e quaisquer obstáculos que possam estar enfrentando.
+
+3. **Projetos são divididos em ciclos**: No Scrum, os projetos são divididos em ciclos chamados Sprints. Cada Sprint tem uma duração fixa, geralmente de duas a quatro semanas, durante a qual a equipe trabalha para completar um conjunto específico de tarefas.
+
+4. **Entrega incremental**: O Scrum enfatiza a entrega incremental de software. No final de cada Sprint, a equipe deve ter um incremento de software potencialmente entregável. Isso significa que o software deve estar em um estado em que possa ser entregue ao cliente, se o cliente desejar.
+
+5. **Envolvimento do cliente**: No Scrum, o envolvimento do cliente é fundamental. O cliente (representado pelo Product Owner) é responsável por definir e priorizar os itens do Product Backlog. Além disso, o cliente é encorajado a participar das revisões do Sprint, onde a equipe demonstra o trabalho que completou durante o Sprint.
+
+Vamos detalhar um pouco mais sobre cada papel na equipe de trabalho do Scrum:
+
+- **Scrum Master**: Este é o facilitador do projeto. Ele não é o líder da equipe no sentido tradicional, mas age como um escudo entre a equipe e quaisquer distrações. Ele garante que a equipe siga as práticas e regras do Scrum. O Scrum Master é responsável por remover quaisquer obstáculos ou impedimentos que a equipe possa enfrentar, permitindo que eles se concentrem totalmente no projeto.
+
+- **Product Owner**: Esta é a pessoa responsável pelo projeto em si. Ele é o principal stakeholder do projeto e tem a missão de indicar os requisitos mais importantes a serem tratados nos Sprints. O Product Owner deve ter uma visão clara do produto e ser capaz de comunicar essa visão para a equipe. Ele é responsável por priorizar o backlog do produto para garantir que o trabalho esteja alinhado com a estratégia do negócio e entregue o máximo de valor.
+
+- **Scrum Team**: Esta é a equipe de desenvolvimento. Eles são responsáveis por entregar o produto. Uma equipe Scrum típica é composta por seis a dez pessoas e inclui uma mistura de habilidades necessárias para entregar o produto. As equipes são altamente auto-organizadas, o que significa que decidem internamente quem fará o quê, quando e como.
+
+- **Product Backlog**: Este é uma lista que contém todas as funcionalidades desejadas para o produto. É uma lista dinâmica que muda e evolui com o tempo e as necessidades do negócio. O Product Owner é responsável por manter e priorizar o Product Backlog.
+
+- **Sprint Backlog**: Esta é a lista de tarefas que a equipe se comprometeu a executar durante um Sprint. Estas tarefas são selecionadas do Product Backlog durante o planejamento do Sprint e são aquelas que a equipe acredita que pode completar durante o próximo Sprint.
+
+- **Sprint**: Este é um ciclo de trabalho fixo, que normalmente varia de duas a quatro semanas, durante o qual um conjunto de tarefas é concluído. Cada Sprint começa com uma reunião de planejamento, durante a qual a equipe seleciona as tarefas do Product Backlog que eles se comprometem a completar. O Sprint termina com uma revisão e uma retrospectiva para refletir sobre o trabalho realizado e planejar melhorias para o próximo Sprint.
+
+![Elementos da Scrum](./images/Agile_Methodology_-_Elements_of_Scrum.png)
+
+A imagem mostra um diagrama do processo de desenvolvimento Scrum, incluindo os papéis, atividades e fluxos de trabalho envolvidos. Vamos detalhar:
+
+- **Entradas dos Executivos, Time, Clientes, Usuários e outros Envolvidos**: Estas são as fontes de entrada para o processo. Eles fornecem as informações necessárias para o desenvolvimento do produto.
+
+- **Dono do Produto (Product Owner)**: Esta pessoa tem uma lista prioritizada de requisitos chamada "Backlog do Produto". Ele é responsável por manter e priorizar este backlog.
+
+- **Time**: O time seleciona itens de maior prioridade que podem se comprometer a entregar no final do Sprint durante a "Reunião de Planejamento do Sprint".
+
+- **Scrum Master**: Este é o facilitador do projeto. Ele ajuda a equipe a seguir as práticas e regras do Scrum e remove quaisquer obstáculos ou impedimentos que a equipe possa enfrentar.
+
+- **Sprint**: Este é um ciclo de trabalho fixo, que dura 1-4 semanas. Durante isso, o time trabalha nas "Tarefas" selecionadas. Ao final do sprint, há uma “Revisão do Sprint” para avaliar o trabalho e uma “Retrospectiva” para discutir melhorias.
+
+- **Gráfico Burndown**: Este gráfico monitora o trabalho concluído. Ele é atualizado a cada 24 horas para mostrar o progresso da equipe.
+
+- **Backlog do Sprint**: Esta é a lista de tarefas que a equipe se comprometeu a executar durante um Sprint. Estas tarefas são selecionadas do Product Backlog durante o planejamento do Sprint.
+
+![Kanban](./images/Agile_Methodology_-_Kanban.png)
+
+Vamos detalhar esses conceitos:
+
+- **Kanban**: O Kanban é uma estrutura ágil que tem sua origem nos princípios da manufatura enxuta (lean), uma metodologia usada principalmente no desenvolvimento de software e na gestão de projetos. O Kanban enfatiza a visualização do trabalho, a limitação do trabalho em andamento (Work in Progress ou WIP) e a maximização do fluxo para melhorar a eficiência. O termo "Kanban" é uma palavra japonesa que significa "sinalização" ou "cartão" e é usado para fazer referência a um sistema de sinalização que utiliza cartões. No contexto de desenvolvimento de software, o Método Kanban foi criado por David J. Anderson em 2010, combinando elementos do pensamento Lean com o pensamento ágil.
+
+- **Quadro de Trabalho**: O quadro de trabalho, também conhecido como quadro Kanban, é uma ferramenta visual que ajuda a organizar e gerenciar o fluxo de trabalho. Ele é composto por colunas que representam as diferentes etapas do processo de trabalho. Cada tarefa é representada por um cartão (ou post-it) que se move pelo quadro à medida que avança pelas etapas do processo. O quadro de trabalho serve para manter a empresa e o funcionário sempre alinhados quanto aos objetivos das funções, além de manter ambos na mesma página quanto às expectativas de projeção de carreira e salário.
+
+- **Pôquer do Planejamento (Planning Poker)**: O Pôquer do Planejamento, também chamado de Scrum Poker, é uma técnica baseada em consenso e gamificação usada principalmente para estimar esforço ou tamanho relativo das metas no desenvolvimento de software. No Pôquer do Planejamento, os membros do grupo fazem estimativas jogando cartas numeradas para baixo na mesa, em vez de falar em voz alta. Os cartões são revelados, e as estimativas são discutidas. Ao esconder as figuras desta maneira, o grupo pode evitar o viés cognitivo da ancoragem, onde o primeiro número falado em voz alta estabelece um precedente para as estimativas subsequentes.
 
