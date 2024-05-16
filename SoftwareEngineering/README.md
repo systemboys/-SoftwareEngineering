@@ -417,3 +417,81 @@ Vamos detalhar esses conceitos:
 
 - **Pôquer do Planejamento (Planning Poker)**: O Pôquer do Planejamento, também chamado de Scrum Poker, é uma técnica baseada em consenso e gamificação usada principalmente para estimar esforço ou tamanho relativo das metas no desenvolvimento de software. No Pôquer do Planejamento, os membros do grupo fazem estimativas jogando cartas numeradas para baixo na mesa, em vez de falar em voz alta. Os cartões são revelados, e as estimativas são discutidas. Ao esconder as figuras desta maneira, o grupo pode evitar o viés cognitivo da ancoragem, onde o primeiro número falado em voz alta estabelece um precedente para as estimativas subsequentes.
 
+### Quadro Scrum
+
+O **Quadro Scrum** é uma ferramenta visual essencial no gerenciamento de projetos ágeis e na metodologia Scrum. Ele ajuda a equipe a visualizar o trabalho, limitar a quantidade de trabalho em andamento e maximizar a eficiência (ou fluxo).
+
+O Quadro Scrum é dividido em várias partes:
+
+1. **Backlog do Produto**: Esta é uma lista priorizada de todos os recursos, funções, melhorias e correções que precisam ser feitas no produto. O proprietário do produto é responsável por manter o backlog do produto.
+2. **Backlog da Sprint**: São itens selecionados do backlog do produto para serem concluídos durante a próxima sprint. A equipe decide quais itens serão incluídos durante a reunião de planejamento da sprint.
+3. **Em Andamento**: Esta seção do quadro mostra todas as tarefas que estão atualmente em andamento.
+4. **Concluído**: Aqui estão todas as tarefas que foram concluídas durante a sprint.
+5. **Impedimentos**: Qualquer coisa que esteja impedindo a equipe de realizar uma tarefa é listada aqui.
+
+O Quadro Scrum é atualizado diariamente pela equipe durante o Daily Scrum (também conhecido como stand-up diário), que é uma reunião de 15 minutos para a equipe sincronizar o progresso e planejar o trabalho do dia.
+
+![Quadro Scrum](./images/Scrum_Board.jpeg)
+
+> ## Conceitos
+>
+> 1. **Meio pelo qual a equipe realiza a gestão visual das atividades do projeto**: Isso se refere ao uso de ferramentas de gestão visual, como o Quadro Scrum que mencionamos anteriormente. Essas ferramentas permitem que a equipe visualize o progresso do projeto, identifique gargalos e priorize tarefas. O Quadro Scrum, por exemplo, é dividido em várias seções (Backlog do Produto, Backlog da Sprint, Em Andamento, Concluído, Impedimentos) que ajudam a equipe a acompanhar o progresso das tarefas.
+> 2. **Não faz parte, oficialmente da metodologia, porém sua adoção foi feita em larga escala pelas equipes e, aparentemente, esse fato não altera sua importância**: Isso pode se referir a práticas ou ferramentas que não são oficialmente parte de uma metodologia (como Scrum ou Agile), mas que foram adotadas por muitas equipes devido à sua utilidade. Por exemplo, embora o Quadro Scrum seja agora amplamente associado ao Scrum, ele não é uma parte oficial da metodologia Scrum. No entanto, sua adoção generalizada não diminui sua importância como uma ferramenta eficaz para a gestão visual de projetos.
+
+O **Quadro Scrum** é uma ferramenta visual que ajuda as equipes a gerenciar e acompanhar o progresso do trabalho em um projeto Scrum. Ele é geralmente dividido em colunas que representam diferentes estágios do fluxo de trabalho, como “A Fazer”, “Em Andamento” e “Concluído”.
+
+No contexto de um projeto Scrum, uma “estória” (ou “user story”) é uma descrição de alto nível de um recurso ou funcionalidade que o produto final deve ter, geralmente do ponto de vista do usuário final. Cada estória é então dividida em várias tarefas menores que precisam ser concluídas para que a estória seja considerada “concluída”.
+
+No Quadro Scrum, cada estória e suas respectivas tarefas são representadas por cartões ou post-its, que são movidos ao longo das colunas à medida que o trabalho progride. Por exemplo, uma tarefa que acabou de ser iniciada seria movida da coluna “A Fazer” para a coluna “Em Andamento”. Quando a tarefa é concluída, ela é movida para a coluna “Concluído”.
+
+Essa disposição matricial de estórias e tarefas ajuda a equipe a visualizar o progresso do projeto, identificar bloqueios e priorizar o trabalho. Além disso, como o Quadro Scrum é atualizado continuamente, ele fornece uma visão em tempo real do status do projeto.
+
+> ## O que é "Estória"?
+>
+> No contexto da engenharia de software e do desenvolvimento ágil, a palavra “estória” é uma tradução do termo inglês “user story”. Uma “estória” ou “user story” é uma descrição simples de uma funcionalidade do sistema sob a perspectiva do usuário final.
+>
+> As estórias são usadas em metodologias ágeis de desenvolvimento de software, como Scrum e XP (Extreme Programming), para capturar brevemente quem, o que e por que de um requisito de um produto. Uma estória é geralmente escrita da seguinte forma: “Como um [tipo de usuário], eu quero [alguma meta] para que eu possa [algum motivo]”.
+>
+> Por exemplo, uma estória para um sistema de compras online pode ser: “Como um cliente, eu quero ser capaz de visualizar meu carrinho de compras para que eu possa revisar os itens antes de fazer o checkout”.
+>
+> As estórias são uma maneira eficaz de capturar requisitos funcionais e manter o foco no usuário e suas necessidades. Elas também promovem a comunicação e a colaboração dentro da equipe de desenvolvimento.
+
+Os **Post-its** são usados para representar as tarefas ou histórias de usuários que precisam ser concluídas. Cada Post-it é colocado na coluna que representa o estágio atual de seu trabalho. À medida que o trabalho progride, o Post-it é movido para a próxima coluna.
+
+As **cores dos Post-its** geralmente têm significados específicos. Embora as cores possam variar dependendo da equipe e do projeto, aqui estão alguns usos comuns:
+
+- **Amarelo**: Tarefas ou histórias de usuários.
+- **Azul**: Tarefas em andamento.
+- **Verde**: Tarefas concluídas.
+- **Vermelho**: Bloqueadores ou problemas que precisam ser resolvidos.
+
+Os profissionais utilizam o Quadro Scrum e os Post-its por várias razões:
+
+1. **Visualização do trabalho**: O Quadro Scrum permite que a equipe veja o status atual do projeto de uma maneira fácil de entender.
+2. **Transparência**: Todos na equipe podem ver o que está sendo trabalhado e quem está trabalhando em quê.
+3. **Promove a colaboração**: A equipe pode identificar facilmente onde o trabalho está parado e colaborar para resolver bloqueadores.
+4. **Adaptabilidade**: O Quadro Scrum é flexível e pode ser facilmente ajustado para atender às necessidades da equipe.
+
+![Quadro Scrum com post-its](./images/Scrum_board_with_post-its.jpeg)
+
+A imagem a seguir mostra um modelo de post-it amarelo usado para organizar tarefas em um Quadro Scrum. Aqui estão os detalhes:
+
+![Post-it modelo](./images/Scrum_board_with_post-its_template.png)
+
+1. **Prioridade da Tarefa**: No canto superior esquerdo, há uma legenda que indica os níveis de prioridade da tarefa: “MA: Muito alta”, “A: Alta”, “M: Média”, “B: Baixa” e “MB: Muito baixa”. Isso ajuda a equipe a entender a importância relativa de cada tarefa.
+2. **Descrição da Tarefa**: No centro do post-it está escrito “Aqui vai a descrição da tarefa, escrita de forma reduzida e objetiva”. Isso indica onde a descrição da tarefa deve ser anotada.
+3. **Responsável pela Tarefa**: Abaixo da descrição, há um espaço marcado como “Nome”, destinado ao nome do responsável pela execução da tarefa.
+4. **Tempo Estimado**: À direita do nome está “8hs”, indicando o tempo estimado para a execução.
+5. **Esforço para Executar a Tarefa**: No canto superior direito está uma escala numerada de 1 a 5 com legendas que representam o esforço necessário para executar a tarefa.
+6. **Relação com a História**: Acima dessa escala está uma seção marcada com “A” que diz “À qual estória esta tarefa pertence”, indicando que essa parte é usada para relacionar a tarefa com uma história ou projeto específico.
+
+## Exemplo de um projeto Scrum
+
+![Projeto Scrum](./images/Scrum_Board_Project_Template.png)
+
+A imagem mostra um quadro Scrum para o projeto/equipe intitulado “EQUIPE SCRUM MARAVILHOSA”. Aqui estão os detalhes:
+
+1. **Colunas do Quadro Scrum**: O quadro está dividido em cinco colunas que representam diferentes fases do processo Scrum: “Pendência”, “A fazer”, “Fazendo”, “Em revisão/garantia de qualidade” e “Feito!”. Isso ajuda a equipe a entender o fluxo de trabalho do projeto.
+2. **Linhas do Quadro Scrum**: Há quatro linhas rotuladas como “História do usuário 1”, “História do usuário 2”, etc., indicando diferentes tarefas ou objetivos a serem alcançados. Isso ajuda a equipe a entender o escopo do projeto.
+3. **Tarefas**: Cada célula contém um quadrado cinza escuro ou claro (podendo ser coloridas), representando o status das tarefas. As células vazias indicam que não há tarefa atribuída a essa categoria específica para a história do usuário correspondente.
+
