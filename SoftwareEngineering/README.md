@@ -12,14 +12,14 @@
     - [4 Atividades Fundamentais](#4-atividades-fundamentais "4 Atividades Fundamentais")
     - [Modelos de Processos](#modelos-de-processos "Modelos de Processos")
 - [Metodologia Ágil](#metodologia-ágil "Metodologia Ágil")
-    - [Histórico](#historico "Histórico")
-    - [Características Fundamentais das Metodologias Ágeis](#caracteristicas-fundamentais-das-metodologias-ageis "Características Fundamentais das Metodologias Ágeis")
-    - [Metodologia Ágil - Extreme Programming (XP)](#metodologia-agil-extreme-programming-xp "Metodologia Ágil - Extreme Programming (XP)")
+    - [Histórico](#histórico "Histórico")
+    - [Características Fundamentais das Metodologias Ágeis](#características-fundamentais-das-metodologias-ágeis "Características Fundamentais das Metodologias Ágeis")
+    - [Metodologia Ágil - Extreme Programming (XP)](#metodologia-%C3%A1gil---extreme-programming-xp "Metodologia Ágil - Extreme Programming (XP)")
 - [Equipe de Trabalho](#equipe-de-trabalho "Equipe de Trabalho")
-    - [Metodologia Ágil - Scrum](#metodologia-ágil-scrum "Metodologia Ágil - Scrum")
+    - [Metodologia Ágil - Scrum](#metodologia-%C3%A1gil---scrum "Metodologia Ágil - Scrum")
         - [Quadro Scrum](#quadro-scrum "Quadro Scrum")
         - [Exemplo de um Projeto Scrum](#exemplo-de-um-projeto-scrum "Exemplo de um Projeto Scrum")
-        - [Gestão de Configuração](#gestao-de-configuracao "Gestão de Configuração")
+        - [Gestão de Configuração](#gest%C3%A3o-de-configura%C3%A7%C3%A3o "Gestão de Configuração")
 
 ---
 
