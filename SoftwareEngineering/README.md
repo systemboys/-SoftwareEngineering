@@ -71,6 +71,8 @@ A Engenharia de Software é uma disciplina que se concentra na produção de sof
 
 Esses são apenas alguns dos fundamentos da Engenharia de Software. A disciplina é vasta e continua a evoluir à medida que novas tecnologias e práticas emergem.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ## Tipos de Software
 
 Os tipos de software são categorias amplas que abrangem uma variedade de programas e aplicações. Aqui está uma breve descrição de cada um:
@@ -91,6 +93,8 @@ Os tipos de software são categorias amplas que abrangem uma variedade de progra
 
 Cada tipo de software tem suas próprias características e requisitos únicos, e a Engenharia de Software desempenha um papel crucial no desenvolvimento de todos eles.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ## Crise do Software
 
 A "Crise do Software" é um termo que foi usado para descrever os desafios significativos enfrentados pela indústria de software nas décadas de 1960 e 1970, quando a demanda por software começou a superar a capacidade de produzi-lo de maneira eficiente e eficaz. Aqui está uma breve descrição dos pontos que você mencionou:
@@ -105,6 +109,8 @@ A "Crise do Software" é um termo que foi usado para descrever os desafios signi
 
 A Engenharia de Software surgiu como uma disciplina para ajudar a resolver a "Crise do Software", introduzindo práticas e princípios rigorosos para o desenvolvimento de software. Isso inclui a aplicação de abordagens sistemáticas, disciplinadas e quantificáveis para o desenvolvimento, operação e manutenção de software.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ## Eternos Mitos
 
 Os mitos que você mencionou são bastante comuns na indústria de software. Aqui está uma breve explicação de por que eles são considerados mitos:
@@ -118,6 +124,8 @@ Os mitos que você mencionou são bastante comuns na indústria de software. Aqu
 - **O teste do software ou sua verificação formal pode remover todos os erros**: Embora o teste e a verificação formal sejam cruciais para a qualidade do software, eles não podem garantir a remoção de todos os erros. Alguns erros podem não ser detectados durante o teste ou a verificação, e alguns podem ser introduzidos durante a manutenção do software.
 
 Esses mitos destacam a importância de uma abordagem equilibrada e bem informada para a engenharia de software.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ## Modelo de processo
 
@@ -134,6 +142,8 @@ Aqui estão alguns dos modelos de processo mais comuns:
 - **Modelo Ágil**: Este modelo promove o desenvolvimento iterativo, onde os requisitos e soluções evoluem através da colaboração entre equipes auto-organizadas e multifuncionais. Ele defende a adaptação flexível em resposta às mudanças.
 
 Cada modelo tem suas próprias forças e fraquezas, e a escolha do modelo de processo depende da natureza do projeto e do ambiente de desenvolvimento. A Engenharia de Software moderna tende a favorecer abordagens mais adaptativas e iterativas, como os métodos ágeis.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ## Processos de Softwares
 
@@ -153,6 +163,8 @@ Existem vários modelos de processos de software, cada um com suas próprias van
 
 Cada modelo tem suas próprias forças e fraquezas, e a escolha do modelo depende das necessidades específicas do projeto de software. É importante notar que o processo de software não é apenas sobre a produção de código; ele também envolve a gestão de requisitos, a gestão de projetos, a garantia de qualidade, e outras disciplinas.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ### 4 Atividades Fundamentais
 
 ![Atividades Fundamentais](./images/Fundamental_Activities.png)
@@ -168,6 +180,8 @@ Vamos discutir cada uma dessas atividades fundamentais em detalhes:
 4. **Evolução de Software**: Após a entrega do software, ele precisa ser mantido e evoluído para atender às mudanças nos requisitos do usuário ou do ambiente operacional. A evolução do software pode envolver a correção de erros, a melhoria do desempenho, a adaptação do software a novos ambientes ou a adição de novas funcionalidades.
 
 Essas quatro atividades são fundamentais para o processo de engenharia de software e são realizadas em diferentes graus em todos os projetos de software. Elas ajudam a garantir que o software desenvolvido atenda às necessidades do usuário e seja de alta qualidade.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ### Modelos de processos
 
@@ -253,6 +267,8 @@ O processo é então repetido, entregando um novo conjunto de incrementos de sof
 
 Este modelo é flexível e menos custoso para mudar o escopo e os requisitos. Ele permite que partes do sistema sejam desenvolvidas e entregues aos clientes de maneira incremental. É uma boa escolha para grandes projetos com requisitos incertos e complexos. No entanto, requer uma definição clara e completa do sistema e pode ser um modelo caro de usar.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 > Conceitos
 
 ## Metodologia Ágil
@@ -268,6 +284,8 @@ A Metodologia Ágil é uma abordagem de desenvolvimento de software que se basei
 4. **Entrega de valor**: Esses atributos dos métodos ágeis e sua cultura de experimentação favorecem a entrega de valor, pois, ao priorizarem entregas contínuas e incrementos de valor em cada iteração, permitem que clientes e stakeholders obtenham benefícios tangíveis mais cedo e possam fornecer feedbacks para orientar o desenvolvimento do projeto.
 
 A Metodologia Ágil surgiu em meados da década de 1990, em contraponto aos métodos tradicionais, vistos como burocráticos, lentos e ineficientes. Ela é uma resposta aos desafios impostos pelas metodologias tradicionais, principalmente no mercado de engenharia de software.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ### Histórico
 
@@ -292,6 +310,8 @@ Os princípios fundamentais do Manifesto Ágil são:
 3. **Colaboração com o cliente** mais que negociação de contratos
 4. **Responder a mudanças** mais que seguir um plano
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ### Motivação para a criação da Metodologia Ágil
 
 A Metodologia Ágil foi criada como uma resposta aos métodos tradicionais de desenvolvimento de software, que eram vistos como rígidos, pesados e excessivamente focados em documentação. Aqui estão algumas das principais motivações para a criação da Metodologia Ágil:
@@ -303,6 +323,8 @@ A Metodologia Ágil foi criada como uma resposta aos métodos tradicionais de de
 3. **Aceitam mudanças ao longo do desenvolvimento de maneira natural**: Em vez de resistir a mudanças, como muitas vezes acontece nos métodos tradicionais, a Metodologia Ágil vê a mudança como algo natural e até mesmo desejável. Ela valoriza "responder a mudanças mais que seguir um plano".
 
 4. **Orientados a pessoas e não a processos**: A Metodologia Ágil coloca as pessoas no centro do processo de desenvolvimento. Ela valoriza "indivíduos e interações mais que processos e ferramentas". Isso significa que a Metodologia Ágil dá ênfase à colaboração, à comunicação e à capacidade das equipes de se auto-organizarem.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ### Características fundamentais das Metodologias Ágeis
 
@@ -317,6 +339,8 @@ Características fundamentais das metodologias ágeis na engenharia de software.
 4. **Envolvimento do Cliente**: As metodologias ágeis enfatizam a colaboração estreita com os clientes e a inclusão deles no processo de desenvolvimento. Isso ajuda a garantir que o produto final atenda às suas necessidades e expectativas.
 
 Esses princípios ajudam as equipes a entregar produtos de alta qualidade de maneira eficiente e eficaz, enquanto se adaptam às mudanças nas necessidades do negócio. Isso é especialmente útil em ambientes de negócios dinâmicos e incertos.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ### Metodologia Ágil - *Extreme Programming* (XP)
 
@@ -350,6 +374,8 @@ Explicação com base na imagem mostra, o ciclo da XP (Extreme Programming), uma
 
 No final do ciclo, há um incremento do software e a velocidade do projeto é calculada. O incremento do software é a adição de novas funcionalidades ao software. A velocidade do projeto é uma medida de quanto trabalho a equipe pode completar em uma iteração.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ## Equipe de Trabalho
 
 Aqui estão as responsabilidades desses papéis na metodologia Extreme Programming (XP):
@@ -363,6 +389,8 @@ Aqui estão as responsabilidades desses papéis na metodologia Extreme Programmi
 4. **Redator Técnico**: O Redator Técnico ajuda a equipe a criar e manter a documentação do projeto. Eles garantem que a documentação evolua de forma iterativa, atualizando os documentos mais perto do fim das iterações. Eles descrevem o que foi feito de fato pelos desenvolvedores, ao invés daquilo que eles combinaram que iriam fazer. Os redatores técnicos devem compreender quem é o público alvo das publicações, assegurar que a linguagem certa seja usada e fazer com que a informação seja atualizada continuamente. Além disso, eles devem monitorar o uso dos documentos e, na medida do possível, eliminar documentos que não estejam provendo valor para o projeto.
 
 5. **Desenvolvedor**: Os desenvolvedores em XP têm várias responsabilidades. Eles são encarregados de cuidar da inteligência do software, fazer a comunicação com outros sistemas para validar uma compra, por exemplo, junto com uma instituição financeira, e fornecer dados para o Front-end exibir na tela do usuário. Além disso, eles devem estar sempre em contato com o cliente e também em contato entre si. Eles também são responsáveis por codificar, testar e refatorar o software.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ### Metodologia Ágil - *Scrum*
 
@@ -438,6 +466,8 @@ Vamos detalhar esses conceitos:
 
 - **Pôquer do Planejamento (Planning Poker)**: O Pôquer do Planejamento, também chamado de Scrum Poker, é uma técnica baseada em consenso e gamificação usada principalmente para estimar esforço ou tamanho relativo das metas no desenvolvimento de software. No Pôquer do Planejamento, os membros do grupo fazem estimativas jogando cartas numeradas para baixo na mesa, em vez de falar em voz alta. Os cartões são revelados, e as estimativas são discutidas. Ao esconder as figuras desta maneira, o grupo pode evitar o viés cognitivo da ancoragem, onde o primeiro número falado em voz alta estabelece um precedente para as estimativas subsequentes.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ### Quadro Scrum
 
 O **Quadro Scrum** é uma ferramenta visual essencial no gerenciamento de projetos ágeis e na metodologia Scrum. Ele ajuda a equipe a visualizar o trabalho, limitar a quantidade de trabalho em andamento e maximizar a eficiência (ou fluxo).
@@ -453,6 +483,8 @@ O Quadro Scrum é dividido em várias partes:
 O Quadro Scrum é atualizado diariamente pela equipe durante o Daily Scrum (também conhecido como stand-up diário), que é uma reunião de 15 minutos para a equipe sincronizar o progresso e planejar o trabalho do dia.
 
 ![Quadro Scrum](./images/Scrum_Board.jpeg)
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 > ## Conceitos
 >
@@ -506,6 +538,8 @@ A imagem a seguir mostra um modelo de post-it amarelo usado para organizar taref
 5. **Esforço para Executar a Tarefa**: No canto superior direito está uma escala numerada de 1 a 5 com legendas que representam o esforço necessário para executar a tarefa.
 6. **Relação com a História**: Acima dessa escala está uma seção marcada com “A” que diz “À qual estória esta tarefa pertence”, indicando que essa parte é usada para relacionar a tarefa com uma história ou projeto específico.
 
+[Sumário](#sum%C3%A1rio "Sumário")
+
 ### Exemplo de um projeto Scrum
 
 ![Projeto Scrum](./images/Scrum_Board_Project_Template.png)
@@ -515,6 +549,8 @@ A imagem mostra um quadro Scrum para o projeto/equipe intitulado “EQUIPE SCRUM
 1. **Colunas do Quadro Scrum**: O quadro está dividido em cinco colunas que representam diferentes fases do processo Scrum: “Pendência”, “A fazer”, “Fazendo”, “Em revisão/garantia de qualidade” e “Feito!”. Isso ajuda a equipe a entender o fluxo de trabalho do projeto.
 2. **Linhas do Quadro Scrum**: Há quatro linhas rotuladas como “História do usuário 1”, “História do usuário 2”, etc., indicando diferentes tarefas ou objetivos a serem alcançados. Isso ajuda a equipe a entender o escopo do projeto.
 3. **Tarefas**: Cada célula contém um quadrado cinza escuro ou claro (podendo ser coloridas), representando o status das tarefas. As células vazias indicam que não há tarefa atribuída a essa categoria específica para a história do usuário correspondente.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 ### Gestão de Configuração
 
@@ -600,4 +636,6 @@ Vamos expandir um pouco mais sobre os **releases** no contexto do gerenciamento 
 Em resumo, os releases representam marcos importantes na evolução de um sistema, enquanto as versões intermediárias permitem o desenvolvimento contínuo e aprimoramentos graduais.
 
 ![Ferramentas de Versionamento](./images/Versioning_Tools.png)
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
