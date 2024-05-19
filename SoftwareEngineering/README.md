@@ -20,7 +20,6 @@
 >         - [Quadro Scrum](#quadro-scrum "Quadro Scrum")
 >         - [Exemplo de um Projeto Scrum](#exemplo-de-um-projeto-scrum "Exemplo de um Projeto Scrum")
 >         - [Gestão de Configuração](#gest%C3%A3o-de-configura%C3%A7%C3%A3o "Gestão de Configuração")
->
 
 ## Princípios da Engenharia de Software
 
@@ -45,6 +44,8 @@ Os princípios que você mencionou são fundamentais na Engenharia de Software. 
 - **Abstração**: Este princípio envolve a representação de entidades complexas como entidades de alto nível, escondendo os detalhes internos.
 
 Esses princípios ajudam a orientar os engenheiros de software no desenvolvimento de sistemas de software eficientes e eficazes.
+
+[Sumário](#sum%C3%A1rio "Sumário")
 
 > Introcução
 
