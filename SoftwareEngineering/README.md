@@ -485,7 +485,7 @@ A imagem a seguir mostra um modelo de post-it amarelo usado para organizar taref
 5. **Esforço para Executar a Tarefa**: No canto superior direito está uma escala numerada de 1 a 5 com legendas que representam o esforço necessário para executar a tarefa.
 6. **Relação com a História**: Acima dessa escala está uma seção marcada com “A” que diz “À qual estória esta tarefa pertence”, indicando que essa parte é usada para relacionar a tarefa com uma história ou projeto específico.
 
-## Exemplo de um projeto Scrum
+### Exemplo de um projeto Scrum
 
 ![Projeto Scrum](./images/Scrum_Board_Project_Template.png)
 
@@ -494,4 +494,89 @@ A imagem mostra um quadro Scrum para o projeto/equipe intitulado “EQUIPE SCRUM
 1. **Colunas do Quadro Scrum**: O quadro está dividido em cinco colunas que representam diferentes fases do processo Scrum: “Pendência”, “A fazer”, “Fazendo”, “Em revisão/garantia de qualidade” e “Feito!”. Isso ajuda a equipe a entender o fluxo de trabalho do projeto.
 2. **Linhas do Quadro Scrum**: Há quatro linhas rotuladas como “História do usuário 1”, “História do usuário 2”, etc., indicando diferentes tarefas ou objetivos a serem alcançados. Isso ajuda a equipe a entender o escopo do projeto.
 3. **Tarefas**: Cada célula contém um quadrado cinza escuro ou claro (podendo ser coloridas), representando o status das tarefas. As células vazias indicam que não há tarefa atribuída a essa categoria específica para a história do usuário correspondente.
+
+### Gestão de Configuração
+
+Claro, vamos entender cada um desses itens no contexto do “Planejamento de Gerenciamento de Configuração” em Engenharia de Software:
+
+1. **Definir o que será gerenciado e o esquema que será usado para identificar as entidades**: Isso se refere à identificação dos itens de configuração que serão gerenciados. Os itens de configuração podem ser especificações, projetos, programas, dados de teste, manuais de usuário, entre outros. Cada um desses documentos produzidos pode ser considerado um item de configuração de software. É importante definir um esquema de identificação para essas entidades para garantir a rastreabilidade e o controle efetivo.
+2. **Estabelecer o responsável**: Este é o processo de designar uma pessoa ou equipe que será responsável pelo gerenciamento de configuração. Esta pessoa ou equipe será responsável por monitorar as mudanças, controlar as versões e garantir a consistência dos itens de configuração.
+3. **Estabelecer políticas de gerenciamento de configuração**: As políticas de gerenciamento de configuração são as regras e diretrizes estabelecidas para controlar a criação e alteração dos itens de configuração. Estas políticas ajudam a garantir a integridade e consistência dos itens de configuração.
+4. **Especificação de ferramentas**: As ferramentas de gerenciamento de configuração são essenciais para automatizar e facilitar o processo de gerenciamento de configuração. Estas ferramentas podem ajudar a rastrear e monitorar alterações, controlar versões, e gerenciar e monitorar atualizações dos dados de configuração.
+5. **Descrever a estrutura do banco de dados**: Isso se refere à descrição da estrutura do banco de dados que será usado para armazenar e gerenciar os itens de configuração. A estrutura do banco de dados deve ser projetada de forma a facilitar o rastreamento e o gerenciamento efetivo dos itens de configuração.
+
+![Gerenciamento de Configuração](./images/Configuration_Management.png)
+
+**O que temos dentro do Gerenciamento de Configuração**
+
+Claro, vamos entender cada um desses itens no contexto do “Planejamento de Gerenciamento de Configuração” em Engenharia de Software:
+
+1. **Definir o que será gerenciado e o esquema que será usado para identificar as entidades**: Isso se refere à identificação dos itens de configuração que serão gerenciados. Os itens de configuração podem ser especificações, projetos, programas, dados de teste, manuais de usuário, entre outros. Cada um desses documentos produzidos pode ser considerado um item de configuração de software. É importante definir um esquema de identificação para essas entidades para garantir a rastreabilidade e o controle efetivo.
+2. **Estabelecer o responsável**: Este é o processo de designar uma pessoa ou equipe que será responsável pelo gerenciamento de configuração. Esta pessoa ou equipe será responsável por monitorar as mudanças, controlar as versões e garantir a consistência dos itens de configuração.
+3. **Estabelecer políticas de gerenciamento de configuração**: As políticas de gerenciamento de configuração são as regras e diretrizes estabelecidas para controlar a criação e alteração dos itens de configuração. Estas políticas ajudam a garantir a integridade e consistência dos itens de configuração.
+4. **Especificação de ferramentas**: As ferramentas de gerenciamento de configuração são essenciais para automatizar e facilitar o processo de gerenciamento de configuração. Estas ferramentas podem ajudar a rastrear e monitorar alterações, controlar versões, e gerenciar e monitorar atualizações dos dados de configuração.
+5. **Descrever a estrutura do banco de dados**: Isso se refere à descrição da estrutura do banco de dados que será usado para armazenar e gerenciar os itens de configuração. A estrutura do banco de dados deve ser projetada de forma a facilitar o rastreamento e o gerenciamento efetivo dos itens de configuração.
+
+**Item de Configuração**
+
+Um “Item de Configuração” é um elemento unitário ou um grupo de elementos para efeito de controle de versão. Eles são os componentes individuais do sistema que são gerenciados no processo de Gerenciamento de Configuração. Aqui estão alguns exemplos:
+
+1. **Código**: O código fonte de um software é um exemplo clássico de um item de configuração. Cada arquivo de código fonte pode ser considerado um item de configuração e é gerenciado individualmente.
+2. **Documentação**: A documentação do software, como especificações de requisitos, manuais do usuário, documentação técnica, etc., também são considerados itens de configuração.
+3. **Diagramas, planos, ferramentas; casos de teste e etc.**: Outros artefatos de software, como diagramas de design, planos de projeto, scripts de teste, ferramentas de construção e implantação, também podem ser considerados itens de configuração.
+
+**Identificação de Item de Configuração**
+
+Vamos entender cada um desses pontos no contexto da “Identificação de Item de Configuração” em Engenharia de Software:
+
+1. **Manter a rastreabilidade**: A rastreabilidade é a capacidade de descrever e seguir o ciclo de vida de um item de configuração. Isso inclui sua origem, desenvolvimento, implementação e manutenção. Manter a rastreabilidade ajuda a entender as dependências e relações entre diferentes itens de configuração, o que é crucial para o gerenciamento eficaz de mudanças.
+2. **Documentos que podem ser úteis devem ser controlados pelo gerenciamento de configuração**: Qualquer documento que seja útil para o desenvolvimento, manutenção e operação do software deve ser considerado um item de configuração e, portanto, deve ser controlado pelo gerenciamento de configuração. Isso pode incluir requisitos, especificações de design, planos de teste, manuais do usuário, documentação de operações, etc.
+3. **Esquemas de nomes hierarquizados**: Um esquema de nomes hierarquizado é uma maneira de organizar e identificar itens de configuração. Isso pode envolver a categorização de itens de configuração em diferentes níveis de uma hierarquia, com base em suas características ou relacionamentos. Por exemplo, você pode ter um nível superior para o sistema como um todo, um nível intermediário para módulos ou componentes individuais e um nível inferior para itens individuais dentro desses componentes.
+
+**Banco de Dados de Configuração**
+
+Vamos falar sobre o “Banco de Dados de Configuração” (Configuration Database) no contexto do Planejamento de Gerenciamento de Configuração em Engenharia de Software.
+
+O Banco de Dados de Configuração é uma parte essencial do gerenciamento de configuração. Ele serve como um repositório centralizado para informações sobre todos os itens de configuração em um sistema e suas configurações. Aqui estão alguns pontos importantes:
+
+1. **Registrar todas as informações relevantes**: O banco de dados de configuração deve registrar todas as informações relevantes sobre as configurações do sistema e os itens de configuração. Isso inclui detalhes como a versão do item de configuração, quem o modificou, quando foi modificado, por que foi modificado e o status atual do item de configuração.
+2. **Avaliar o impacto das mudanças**: Antes de fazer qualquer alteração em um item de configuração, é importante avaliar o impacto dessa alteração no sistema como um todo. O banco de dados de configuração pode ajudar a identificar quais outros itens de configuração podem ser afetados pela mudança.
+3. **Registro e recuperação de informações de projeto**: O banco de dados de configuração também deve ser capaz de registrar e recuperar informações de projeto. Isso pode incluir documentos de projeto, requisitos, especificações, planos de teste e outros artefatos de projeto.
+
+Em resumo, o Banco de Dados de Configuração é uma ferramenta vital para o gerenciamento eficaz de configuração em Engenharia de Software. Ele ajuda a manter a consistência e a integridade dos sistemas ao longo do tempo e facilita a coordenação e a comunicação entre as equipes de projeto.
+
+**Gerenciamento de Versões e Releases**
+
+Vamos falar sobre o “Gerenciamento de Versões e Releases” no contexto do “Banco de Dados de Configuração”.
+
+O **gerenciamento de versões** é fundamental para manter o controle sobre as diferentes iterações de um sistema. Aqui estão alguns pontos importantes:
+
+1. **Identificação e Rastreabilidade das Versões**:
+   - Cada versão de um sistema é uma instância específica desse sistema.
+   - Essas versões podem ser identificadas por números, datas ou outras convenções.
+   - A rastreabilidade permite acompanhar as mudanças feitas em cada versão.
+2. **Diferenças entre Versões**:
+   - As versões podem diferir de outras instâncias do sistema de várias maneiras:
+     - Correções de bugs.
+     - Novos recursos ou funcionalidades.
+     - Alterações na arquitetura ou design.
+   - Essas diferenças podem ser pequenas ou significativas.
+3. **Variantes**:
+   - Quando as diferenças entre versões são sutis, podemos chamá-las de variantes.
+   - Variantes podem surgir de diferentes configurações, personalizações ou ajustes específicos para determinados contextos.
+
+Em resumo, o gerenciamento de versões e releases é essencial para manter a integridade e a evolução de um sistema ao longo do tempo. Ele permite que os desenvolvedores controlem as mudanças e garantam que as diferentes versões sejam rastreáveis e compreensíveis.
+
+Vamos expandir um pouco mais sobre os **releases** no contexto do gerenciamento de versões:
+
+1. Releases
+   - **Definição**: Releases são versões específicas de um sistema que são distribuídas aos clientes ou usuários finais.
+   - **Objetivo**: Essas versões são criadas para fornecer novas funcionalidades, correções de bugs ou melhorias.
+   - **Incorporação de Funcionalidades**: Um release pode incorporar várias funcionalidades novas ou aprimoradas.
+   - **Plataformas Diferentes**: Às vezes, um release é planejado para uma plataforma de hardware específica (por exemplo, Windows, Linux, Android, iOS).
+   - **Versus Versões**: Geralmente, há muito mais versões intermediárias de um sistema do que releases finais.
+
+Em resumo, os releases representam marcos importantes na evolução de um sistema, enquanto as versões intermediárias permitem o desenvolvimento contínuo e aprimoramentos graduais.
+
+![Ferramentas de Versionamento](./images/Versioning_Tools.png)
 
