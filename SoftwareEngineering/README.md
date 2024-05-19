@@ -1,8 +1,6 @@
 # Engenharia de Software
 
----
-
-> Sumário
+> ## Sumário
 >
 > - [Princípios da Engenharia de Software](#princípios-da-engenharia-de-software "Princípios da Engenharia de Software")
 > - [Fundamentos da Engenharia de Software](#fundamentos-da-engenharia-de-software "Fundamentos da Engenharia de Software")
@@ -23,8 +21,6 @@
 >         - [Exemplo de um Projeto Scrum](#exemplo-de-um-projeto-scrum "Exemplo de um Projeto Scrum")
 >         - [Gestão de Configuração](#gest%C3%A3o-de-configura%C3%A7%C3%A3o "Gestão de Configuração")
 >
-
----
 
 ## Princípios da Engenharia de Software
 
