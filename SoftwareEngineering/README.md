@@ -20,6 +20,17 @@
 >         - [Quadro Scrum](#quadro-scrum "Quadro Scrum")
 >         - [Exemplo de um Projeto Scrum](#exemplo-de-um-projeto-scrum "Exemplo de um Projeto Scrum")
 >         - [Gestão de Configuração](#gest%C3%A3o-de-configura%C3%A7%C3%A3o "Gestão de Configuração")
+> - [Qualidade de Software](#qualidade-de-software "Qualidade de Software")
+>     - [Conceito](#conceito "Conceito")
+>     - [Custo da Qualidade](#custo-da-qualidade "Custo da Qualidade")
+>     - [Elementos que impactam na qualidade de um software](#elementos-que-impactam-na-qualidade-de-um-software "Elementos que impactam na qualidade de um software")
+>     - [Requisitos Funcionais](#requisitos-funcionais "Requisitos Funcionais")
+>     - [Requisitos Não-funcionais](#requisitos-não-funcionais "Requisitos Não-funcionais")
+> - [Garantia da Qualidade](#garantia-da-qualidade "Garantia da Qualidade")
+> - [Qualidade do Produto](#qualidade-do-produto "Qualidade do Produto")
+> - [Indicadores de Qualidade](#indicadores-de-qualidade "Indicadores de Qualidade")
+> - [ISO 9000](#iso-9000 "ISO 9000")
+> - [ISO 9001](#iso-9001)
 
 ## Princípios da Engenharia de Software
 
@@ -638,4 +649,320 @@ Em resumo, os releases representam marcos importantes na evolução de um sistem
 ![Ferramentas de Versionamento](./images/Versioning_Tools.png)
 
 [Sumário](#sum%C3%A1rio "Sumário")
+
+## Qualidade de Software
+
+> ## Conceito
+>
+> A **Qualidade de Software** é uma área da Engenharia de Software que se concentra em garantir que o software atenda aos padrões de qualidade esperados. Isso envolve a aplicação de uma série de verificações e medidas durante o ciclo de vida do desenvolvimento de software para garantir a conformidade com os requisitos especificados.
+>
+> A qualidade de software pode ser avaliada em várias dimensões, incluindo, entre outras:
+>
+> 1. **Funcionalidade**: O software realiza as tarefas conforme o esperado?
+> 2. **Confiabilidade**: O software é estável e funciona sem falhas?
+> 3. **Usabilidade**: O software é fácil de usar e intuitivo?
+> 4. **Eficiência**: O software utiliza recursos de maneira eficaz e eficiente?
+> 5. **Manutenibilidade**: O software pode ser facilmente modificado para mudanças e melhorias?
+> 6. **Portabilidade**: O software pode ser facilmente transferido de um ambiente para outro?
+>
+> A qualidade do software é assegurada através de várias atividades, como revisão de código, teste de software, integração contínua e controle de versão. Além disso, normas e modelos de qualidade, como ISO 9000 e CMMI, podem ser usados para padronizar e melhorar os processos de garantia de qualidade.
+
+A qualidade de software pode ser aplicada em várias áreas, incluindo:
+
+1. **Qualidade de Projeto**: A qualidade do projeto de software refere-se à eficácia do design do software em atender aos requisitos do usuário e às expectativas de desempenho. Isso pode envolver a arquitetura do software, a modularidade do código, a facilidade de manutenção e a eficiência do software. A qualidade do projeto é assegurada através de boas práticas de engenharia de software, como a utilização de padrões de projeto, a revisão de código e a refatoração regular.
+2. **Qualidade de Conformidade**: A qualidade de conformidade refere-se ao grau em que o software adere a padrões, diretrizes e regulamentos específicos. Isso pode incluir conformidade com padrões de codificação, diretrizes de acessibilidade, regulamentos de privacidade e segurança, e muito mais. A qualidade de conformidade é assegurada através de auditorias regulares, testes de conformidade e revisões de código.
+
+Além disso, a qualidade de software também pode ser aplicada em outras áreas, como **qualidade de processo** (a eficácia dos processos de desenvolvimento de software), **qualidade de produto** (a funcionalidade, confiabilidade e desempenho do software) e **qualidade de serviço** (a eficácia do suporte e serviços relacionados ao software).
+
+**Definição**
+
+Definição simplificada da qualidade de software. Aqui está o que cada componente significa:
+
+1. **Produto Adequado**: O software deve atender às necessidades e expectativas do usuário. Isso inclui a funcionalidade correta, a interface do usuário intuitiva e a performance adequada.
+2. **Máxima Qualidade**: O software deve ser livre de defeitos, ter alta disponibilidade e confiabilidade, e ser fácil de manter e atualizar.
+3. **Entrega dentro do Orçamento e do Prazo**: O software deve ser entregue dentro do custo estimado e do cronograma definido. Atrasos e custos excessivos podem afetar a satisfação do usuário.
+
+Portanto, a satisfação do usuário em relação à qualidade do software pode ser expressa pela seguinte fórmula:
+
+\text{Satisfação do usuário} = \text{Produto adequado} + \text{Máxima qualidade} + \text{Entrega dentro do orçamento e do prazo}Satisfac¸a˜o do usuaˊrio=Produto adequado+Maˊxima qualidade+Entrega dentro do orc¸amento e do prazo
+
+Essa fórmula destaca a importância de equilibrar as necessidades do produto, a qualidade e as restrições de tempo e custo para alcançar a satisfação do usuário. É importante notar que a “satisfação do usuário” é um objetivo contínuo que requer esforço constante para manter e melhorar a qualidade do software.
+
+1. **Uma Gestão de Qualidade Efetiva**: A gestão de qualidade efetiva envolve a implementação de práticas e processos que garantem a qualidade do software. Isso pode incluir a definição de padrões de qualidade, a realização de revisões de código e testes de software, e a implementação de um processo de controle de mudanças. Além disso, a gestão de qualidade efetiva também envolve a melhoria contínua dos processos de qualidade para garantir que eles sejam eficazes e eficientes.
+2. **Um Produto Útil**: Um produto útil é aquele que atende às necessidades e expectativas do usuário. Isso envolve a compreensão dos requisitos do usuário, o desenvolvimento de funcionalidades que atendam a esses requisitos e a garantia de que o software seja fácil de usar e intuitivo. Além disso, um produto útil também deve ser confiável e eficiente.
+3. **Agregar Valor Tanto para o Fabricante Quanto para o Usuário**: Agregar valor para o fabricante e o usuário significa que o software deve não apenas atender às necessidades do usuário, mas também trazer benefícios para o fabricante. Para o usuário, isso pode significar melhorar a produtividade, reduzir custos ou proporcionar entretenimento. Para o fabricante, isso pode significar aumentar a receita, melhorar a reputação da marca ou obter uma vantagem competitiva.
+
+Portanto, alcançar a qualidade do software envolve uma combinação de gestão de qualidade efetiva, desenvolvimento de um produto útil e agregação de valor para o fabricante e o usuário.
+
+**Ferramentas de Control**
+
+As ferramentas de controle são essenciais para garantir a qualidade do software. Aqui está uma breve descrição de cada uma:
+
+1. **Inspeções**: As inspeções são uma forma de revisão de código em que um ou mais revisores examinam o código para identificar erros, violações de padrões de codificação e oportunidades de melhoria. As inspeções podem ser formais (com um processo definido e documentação) ou informais.
+2. **Revisões**: As revisões são semelhantes às inspeções, mas geralmente são menos formais. Elas podem ser realizadas por qualquer membro da equipe de desenvolvimento e podem focar em qualquer aspecto do software, desde o design até o código e a documentação. As revisões são uma maneira eficaz de identificar e corrigir problemas no início do ciclo de vida do desenvolvimento de software.
+3. **Testes**: Os testes são uma parte essencial do controle de qualidade do software. Eles envolvem a execução do software com o objetivo de encontrar e corrigir erros. Existem muitos tipos de testes, incluindo testes unitários, testes de integração, testes de sistema, testes de aceitação e testes de regressão. Cada tipo de teste tem um propósito específico e ajuda a garantir que o software funcione corretamente em diferentes cenários e condições.
+
+Essas ferramentas de controle, quando usadas efetivamente, podem melhorar significativamente a qualidade do software e a satisfação do usuário.
+
+> Na engenharia de software, a frase “Todos os produtos de trabalho têm especificações definidas e mensuráveis” destaca a importância da **qualidade** e da **precisão** na criação de produtos de software. Aqui estão alguns pontos para entender melhor:
+>
+> 1. **Especificação Definida**: Cada produto de trabalho, seja um código-fonte, um documento de design, um caso de teste ou um relatório de bug, deve ter uma especificação claramente definida. Isso significa que deve haver um entendimento claro do que o produto de trabalho é suposto fazer ou representar. Isso ajuda a garantir que todos na equipe de desenvolvimento estejam na mesma página e reduz a possibilidade de mal-entendidos ou erros.
+> 2. **Mensurabilidade**: Além de ter uma especificação definida, é importante que os atributos do produto de trabalho sejam mensuráveis. Isso pode incluir coisas como o desempenho do código (por exemplo, tempo de execução), a cobertura do caso de teste ou a severidade de um bug. Ter atributos mensuráveis permite que a equipe de desenvolvimento rastreie o progresso, identifique problemas e faça melhorias de maneira mais eficaz.
+> 3. **Importância para a Qualidade do Software**: Ao garantir que todos os produtos de trabalho tenham especificações definidas e mensuráveis, a equipe de desenvolvimento pode melhorar a qualidade do software. Eles podem garantir que o software atenda às expectativas do usuário, identificar e corrigir problemas mais rapidamente e fazer melhorias contínuas no produto.
+>
+> Portanto, essa prática é fundamental para a engenharia de software de alta qualidade, pois promove a clareza, a responsabilidade e a melhoria contínua.
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Custo da Qualidade
+
+“Custo da Qualidade” é um conceito importante na engenharia de software e na gestão da qualidade em geral. Ele se refere ao custo total associado à prevenção, detecção e correção de defeitos em um produto ou serviço. Aqui estão os principais componentes:
+
+1. **Custos de Prevenção**: São os custos associados à prevenção de defeitos antes que eles ocorram. Isso pode incluir atividades como treinamento de qualidade, planejamento da qualidade do produto, e revisão de requisitos e design.
+2. **Custos de Avaliação**: São os custos associados à avaliação ou inspeção de produtos para garantir que eles atendam aos padrões de qualidade. Isso pode incluir atividades como inspeções de código, testes de software e auditorias de qualidade.
+3. **Custos de Falhas Internas**: São os custos associados a defeitos encontrados antes da entrega do produto ao cliente. Isso pode incluir o tempo e os recursos necessários para corrigir os defeitos e retestar o produto.
+4. **Custos de Falhas Externas**: São os custos associados a defeitos encontrados após a entrega do produto ao cliente. Isso pode incluir suporte ao cliente, reparos de garantia, e até mesmo perda de reputação ou negócios.
+
+O objetivo da gestão da qualidade é minimizar o custo total da qualidade, equilibrando os custos de prevenção e avaliação com os custos de falhas internas e externas. Em geral, investir em prevenção e avaliação pode ajudar a reduzir os custos de falhas e, portanto, o custo total da qualidade. No entanto, é importante notar que o “custo ótimo da qualidade” não é necessariamente zero defeito, pois pode haver um ponto de diminuição dos retornos onde o custo de prevenção e avaliação supera os benefícios de redução de defeitos.
+
+![Custo da Qualidade](./images/Cost_of_Quality.png)
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Elementos que impactam na qualidade de um software
+
+A imagem apresenta um diagrama que ilustra os elementos que impactam na qualidade de um software. O diagrama é composto por três círculos conectados por setas, representando uma sequência ou relação entre os elementos. Aqui está a explicação de cada elemento:
+
+1. **Funcionais**: Este círculo representa os requisitos funcionais do software. Estes são os recursos e funções que o software deve realizar. Os ícones de pessoas podem indicar que esses requisitos são frequentemente determinados pelas necessidades e expectativas dos usuários.
+2. **Levantamento de Requisitos**: Este círculo representa o processo de coleta e análise dos requisitos do software. Isso envolve entender o que os usuários precisam e querem do software, e traduzir essas necessidades e desejos em requisitos técnicos claros e mensuráveis.
+3. **Não Funcionais**: Este círculo representa os requisitos não funcionais do software. Estes são os critérios que descrevem como o sistema deve funcionar, em vez do que ele deve fazer. Isso pode incluir aspectos como desempenho, segurança, usabilidade e confiabilidade.
+
+As setas curvas indicam que esses três elementos estão interligados e influenciam uns aos outros. Por exemplo, os requisitos funcionais e não funcionais são identificados durante o levantamento de requisitos. Juntos, esses elementos desempenham um papel crucial na determinação da qualidade do software.
+
+O Levantamento de Requisitos é uma etapa crucial no desenvolvimento de software por várias razões:
+
+1. **Entendimento claro das necessidades do usuário**: O Levantamento de Requisitos permite que a equipe de desenvolvimento entenda o que os usuários esperam do software. Isso ajuda a garantir que o produto final atenda às necessidades e expectativas dos usuários.
+2. **Redução de retrabalho**: Se os requisitos não forem claramente entendidos e documentados desde o início, a equipe de desenvolvimento pode acabar construindo algo que não atenda às necessidades do usuário. Isso pode resultar em retrabalho significativo, o que pode ser caro e demorado.
+3. **Planejamento e agendamento eficazes**: Com um entendimento claro dos requisitos, a equipe de desenvolvimento pode planejar e agendar o projeto de maneira mais eficaz. Eles podem identificar as tarefas que precisam ser realizadas, estimar o tempo e os recursos necessários e identificar quaisquer riscos ou desafios potenciais.
+4. **Facilita a comunicação**: O Levantamento de Requisitos também facilita a comunicação entre todas as partes interessadas do projeto, incluindo desenvolvedores, gerentes de projeto, usuários e qualquer outra pessoa envolvida no projeto.
+5. **Base para testes**: Os requisitos coletados e documentados servem como base para a criação de casos de teste. Isso garante que o software seja testado contra os requisitos corretos, ajudando a garantir a qualidade do produto final.
+
+Portanto, embora todas as etapas do desenvolvimento de software sejam importantes, o Levantamento de Requisitos é particularmente crítico devido ao seu impacto em todas as outras etapas do processo.
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Requisitos Funcionais
+
+Aqui estão as explicações para cada um dos requisitos funcionais como exemplo:
+
+1. **Incluir / Excluir / Alterar nome em uma tela de manutenção de funcionários**: Este requisito funcional está relacionado à gestão de informações dos funcionários em um sistema. Ele permite que os usuários (geralmente administradores ou gerentes) adicionem novos funcionários (Incluir), removam funcionários existentes (Excluir) ou modifiquem as informações dos funcionários, como o nome (Alterar), diretamente na tela de manutenção de funcionários.
+2. **Geração de relatório de determinado período de vendas**: Este requisito funcional está relacionado à geração de relatórios em um sistema de vendas ou de gestão empresarial. Ele permite que os usuários gerem relatórios que mostram as vendas realizadas durante um período específico. Esses relatórios podem ajudar a empresa a entender melhor seu desempenho de vendas e a tomar decisões informadas.
+3. **Efetuar pagamentos de compra através de crédito ou débito**: Este requisito funcional está relacionado ao processamento de pagamentos em um sistema de comércio eletrônico ou ponto de venda. Ele permite que os clientes façam pagamentos por suas compras usando cartões de crédito ou débito. Isso envolve a integração com um gateway de pagamento para processar essas transações.
+4. **Consulta de saldo ou estoque**: Este requisito funcional está relacionado à gestão de estoque em um sistema de vendas ou de gestão empresarial. Ele permite que os usuários (geralmente gerentes de estoque ou de vendas) verifiquem a quantidade atual de um item específico em estoque. Isso pode ajudar a empresa a gerenciar melhor seu estoque e a evitar situações de excesso ou falta de estoque.
+
+Cada um desses requisitos funcionais desempenha um papel importante no funcionamento eficaz do sistema de software e na entrega de valor aos seus usuários. Eles são chamados de “funcionais” porque estão diretamente relacionados às funções ou recursos que o sistema deve fornecer.
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Requisitos Não-funcionais
+
+Os **Requisitos Não-funcionais** são uma parte crucial da Engenharia de Software e da Qualidade de Software. Eles descrevem as características do sistema que não estão diretamente relacionadas com o comportamento específico do sistema, mas sim com propriedades como confiabilidade, eficiência, segurança, portabilidade e usabilidade. Aqui estão algumas razões pelas quais os requisitos não-funcionais são importantes:
+
+1. **Desempenho**: Requisitos não-funcionais ajudam a definir o desempenho do sistema, como a velocidade de processamento, tempo de resposta, utilização de recursos, taxa de transferência, etc.
+2. **Segurança**: Eles são essenciais para definir o nível de segurança necessário para o sistema. Isso pode incluir autenticação, autorização, confidencialidade, integridade, auditoria, etc.
+3. **Usabilidade**: Requisitos não-funcionais podem especificar a facilidade de uso do sistema, eficiência do usuário, estética, consistência da interface do usuário, etc.
+4. **Confiabilidade**: Eles podem definir a capacidade do sistema de funcionar sob condições especificadas por um período de tempo específico sem falhas.
+5. **Manutenibilidade**: Requisitos não-funcionais podem ajudar a determinar quão fácil é para modificar o sistema e atualizar suas funcionalidades.
+6. **Portabilidade**: Eles podem especificar a facilidade com que o software pode ser transferido de um ambiente para outro.
+
+Portanto, os requisitos não-funcionais são vitais para garantir que o software atenda às expectativas do usuário e do negócio em termos de qualidade, desempenho e confiabilidade. Sem requisitos não-funcionais adequados, um sistema pode não ser capaz de atender às necessidades do usuário final, independentemente de quão bem ele execute suas funções específicas.
+
+Vamos analisar alguns requisitos não-funcionais no contexto:
+
+1. **Alta disponibilidade**: Este requisito significa que o sistema deve estar acessível e operacional para os usuários a maior parte do tempo possível. Isso é especialmente importante para sistemas críticos onde o tempo de inatividade pode ter consequências significativas. Alta disponibilidade pode ser alcançada através de várias estratégias, como redundância de hardware, balanceamento de carga, failover automático, etc.
+2. **Executar em qualquer plataforma**: Este requisito indica que o sistema deve ser capaz de operar em diferentes sistemas operacionais ou plataformas de hardware. Isso é muitas vezes referido como portabilidade. Isso pode ser alcançado através do uso de tecnologias e padrões abertos, evitando dependências específicas da plataforma e projetando o sistema para ser modular e configurável.
+3. **Comunicação com o banco SQL Server**: Este requisito especifica que o sistema deve ser capaz de se comunicar e interagir com um banco de dados SQL Server. Isso pode envolver a leitura e escrita de dados, a execução de consultas SQL e a manipulação de esquemas de banco de dados. Isso requer que o sistema tenha os drivers e bibliotecas apropriados para se conectar ao SQL Server e que ele implemente a lógica de negócios necessária para interagir com o banco de dados.
+
+Cada um desses requisitos não-funcionais desempenha um papel crucial na definição das características e capacidades do sistema, e é importante para garantir que o sistema atenda às expectativas dos usuários e às necessidades do negócio.
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Garantia da Qualidade
+
+**Ciclo de desenvolvimento de Software**
+
+![Ciclo de desenvolvimento de Software](/home/marcos/Documentos/Projects/SoftwareEngineering/SoftwareEngineering/images/Software_development_cycle.png)
+
+A imagem mostra o “Ciclo de Desenvolvimento de Software”, que é um processo que os desenvolvedores seguem para produzir um software de alta qualidade. Aqui está uma explicação de cada etapa:
+
+1. **Avaliação**: Esta é a primeira etapa do ciclo de desenvolvimento de software. Aqui, as necessidades e requisitos do software são avaliados. Isso pode envolver a compreensão das necessidades do usuário, a identificação dos problemas que o software precisa resolver, e a definição dos objetivos do software.
+2. **Análise**: Nesta etapa, os requisitos identificados na fase de avaliação são analisados em detalhes. Isso pode envolver a decomposição dos requisitos em tarefas menores, a identificação de possíveis desafios na implementação dos requisitos, e a definição de critérios de sucesso para o software.
+3. **Projeto**: Aqui, o sistema é projetado para atender aos requisitos identificados nas etapas anteriores. Isso pode envolver a criação de diagramas de arquitetura, a definição de interfaces de usuário, e a escolha de tecnologias para a implementação do software.
+4. **Implementação**: Esta é a fase em que o software é realmente codificado. Os desenvolvedores usam as informações coletadas nas etapas anteriores para escrever o código que implementa os requisitos do software.
+5. **Teste**: Depois que o software é implementado, ele passa por uma fase de teste. Aqui, o software é testado para garantir que ele atenda aos requisitos definidos e que ele não tenha bugs ou problemas.
+6. **Manutenção**: Esta é a última etapa do ciclo de desenvolvimento de software. Aqui, o software é mantido e atualizado conforme necessário. Isso pode envolver a correção de bugs, a adição de novas funcionalidades, e a atualização do software para se manter atualizado com as mudanças tecnológicas.
+
+**Garantia da Qualidade de Software (SQA)**. A SQA é um processo que ajuda a garantir que o software desenvolvido atenda aos padrões de qualidade estabelecidos. Aqui estão alguns pontos importantes sobre a SQA:
+
+1. **Padrão Planejado e Sistemático de Ações**: A SQA envolve a implementação de um conjunto planejado e sistemático de atividades que são projetadas para garantir a qualidade. Isso pode incluir atividades como revisões de código, testes de unidade, testes de integração, testes de sistema, testes de aceitação do usuário, entre outros.
+2. **Garantia da Qualidade de Software**: A principal finalidade da SQA é garantir que o software atenda aos padrões de qualidade estabelecidos. Isso é feito através da identificação e correção de defeitos, bem como da prevenção de defeitos através do uso de boas práticas de engenharia de software.
+3. **Abrangência em Todo o Ciclo de Vida do Projeto**: A SQA não se limita a uma única fase do ciclo de vida do desenvolvimento de software. Ela se estende por todo o ciclo de vida do projeto, desde a fase de concepção e definição de requisitos até a fase de manutenção após a implantação do software. Isso garante que a qualidade seja mantida em todas as fases do desenvolvimento.
+4. **Melhoria Contínua**: A SQA também envolve a melhoria contínua do processo de desenvolvimento de software. Isso é feito através da coleta e análise de métricas, realização de auditorias de processo, e implementação de ações corretivas e preventivas com base nos resultados dessas atividades.
+
+Portanto, a Garantia da Qualidade de Software é uma parte essencial do desenvolvimento de software que ajuda a garantir que o software atenda às expectativas dos usuários e às necessidades do negócio em termos de funcionalidade, desempenho, segurança e outros atributos de qualidade. Espero que isso ajude a esclarecer! Se você tiver mais perguntas, sinta-se à vontade para perguntar.
+
+**O que deve ser feito para possuir esse SQA (Garantia da Qualidade)?**
+
+1. **Possuir ferramentas e/ou métodos que permitam a análise dos desenvolvimentos e dos testes**: Isso se refere ao uso de ferramentas e métodos que permitem aos desenvolvedores analisar o código e os resultados dos testes. Isso pode incluir ferramentas de análise estática de código, ferramentas de teste automatizado, ferramentas de integração contínua, entre outros. Essas ferramentas ajudam a identificar e corrigir problemas no código e garantir que o software atenda aos requisitos definidos.
+2. **Efetuar revisões técnicas nos componentes e na funcionalidade**: As revisões técnicas são uma parte importante do processo de garantia da qualidade do software. Elas envolvem a revisão do código e do design do software por pares ou especialistas para identificar possíveis problemas ou melhorias. Isso pode ajudar a garantir que o software seja de alta qualidade e atenda aos padrões de codificação e design.
+3. **Controlar a documentação por meio de versionamento**: O controle de versão é uma prática importante na engenharia de software que permite rastrear e gerenciar mudanças no código e na documentação do software. Isso pode incluir o uso de sistemas de controle de versão como Git, que permitem aos desenvolvedores trabalhar em diferentes versões do software simultaneamente, sem interferir no trabalho uns dos outros.
+4. **Atribuir métodos para se garantir padrões de desenvolvimento e das boas práticas**: Isso se refere ao uso de padrões de codificação e melhores práticas na engenharia de software. Isso pode incluir coisas como seguir convenções de nomenclatura, escrever código limpo e legível, usar padrões de design, escrever testes unitários, entre outros. Seguir esses padrões e práticas pode ajudar a garantir que o software seja de alta qualidade e fácil de manter.
+5. **Obter mecanismos de aferição**: Isso se refere ao uso de métricas e indicadores para medir a qualidade do software. Isso pode incluir coisas como a taxa de defeitos, a cobertura de código pelos testes, o tempo de resposta do sistema, entre outros. Essas métricas podem ajudar a identificar áreas de melhoria e garantir que o software atenda aos padrões de qualidade.
+
+**Pontos importantes para a Qualidade de um produto**
+
+![Pontos importantes para a Qualidade de um produto](./images/Important_points_for_the_Quality_of_a_product.png)
+
+A qualidade do software é crucial para garantir a eficiência, eficácia e satisfação do usuário final. Os pontos importantes para a qualidade de um produto de software incluem:
+
+1. **Portabilidade**: A capacidade do software ser transferido facilmente de um ambiente para outro. Isso significa que o software pode ser usado em diferentes sistemas operacionais, dispositivos ou navegadores com pouco ou nenhum esforço de modificação.
+2. **Usabilidade**: Refere-se à facilidade com que os usuários podem aprender e usar o software. Isso inclui a intuitividade da interface do usuário, a clareza das instruções fornecidas, e a eficácia com que o software ajuda os usuários a alcançar seus objetivos.
+   - **Confiabilidade**: A consistência do desempenho do software e sua capacidade de funcionar sem falhas. Isso é crucial para manter a confiança dos usuários no software.
+   - **Eficiência**: O desempenho ótimo do software com o uso mínimo de recursos. Isso se refere à velocidade e à eficiência com que o software realiza suas tarefas.
+   - **Engenharia Humana**: O design intuitivo e a experiência do usuário otimizada. Isso se refere à forma como o software é projetado para ser fácil de usar e agradável para o usuário.
+3. **Manutenibilidade**: A capacidade de adaptar o software às mudanças nas necessidades dos usuários ou no ambiente operacional.
+   - **Facilidade de Teste**: A capacidade de testar eficientemente o software para garantir que está livre de bugs e outros problemas. Isso é crucial para manter a qualidade do software ao longo do tempo.
+   - **Facilidade de Entendimento**: A clareza do código e da arquitetura, facilitando as modificações e manutenção. Isso é importante para permitir que os desenvolvedores compreendam e modifiquem o software de forma eficaz.
+   - **Facilidade de Modificação**: A capacidade de adaptar o software às mudanças nas necessidades dos usuários ou no ambiente operacional. Isso é crucial para garantir que o software continue a atender às necessidades dos usuários à medida que essas necessidades evoluem.
+
+Esses pontos são todos conectados a uma utilidade geral, que é a capacidade do software de atender efetivamente às necessidades dos usuários e fornecer valor. A qualidade do software é, portanto, uma consideração crucial em todas as fases do ciclo de vida do desenvolvimento de software, desde o design inicial até a manutenção e atualização contínuos.
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Qualidade do Produto
+
+Na Engenharia de Software, a qualidade do produto é um conceito fundamental que se refere à medida em que um produto de software atende às necessidades e expectativas dos usuários. Aqui estão alguns conceitos-chave relacionados à qualidade do produto de software:
+
+1. **Funcionalidade**: Refere-se à capacidade do software de fornecer funções que atendam às necessidades declaradas e implícitas quando usado sob condições especificadas.
+2. **Usabilidade**: Refere-se à eficácia, eficiência e satisfação com que os usuários podem alcançar seus objetivos em um determinado ambiente de uso do produto.
+3. **Confiabilidade**: Refere-se à capacidade do software de manter seu nível de desempenho quando usado sob condições especificadas.
+4. **Eficiência**: Refere-se à capacidade do software de fornecer o desempenho apropriado em relação à quantidade de recursos usados.
+5. **Segurança**: Refere-se à capacidade do software de proteger informações e dados para que pessoas ou sistemas não tenham acesso ou possam destruir essas informações e dados.
+6. **Manutenibilidade**: Refere-se à facilidade com que um produto de software pode ser modificado para mudanças nos requisitos, correções de defeitos, adaptações a novos ambientes ou melhorias no desempenho.
+7. **Portabilidade**: Refere-se à capacidade do software de ser transferido de um ambiente para outro.
+
+Esses conceitos formam a base para a avaliação da qualidade do produto de software. Eles ajudam as organizações a desenvolver software que atenda às necessidades dos usuários, melhore a satisfação do usuário, reduza o retrabalho e os custos de manutenção, e, em última análise, melhore a competitividade e a produtividade.
+
+As normas ISO para a qualidade do software fornecem um quadro para avaliar a qualidade de um produto de software. Aqui estão alguns dos conceitos-chave:
+
+1. **Corretude**: Esta é a capacidade do software de fornecer os resultados corretos conforme especificado nos requisitos do software. A corretude é geralmente verificada através de testes e validação.
+2. **Eficiência**: A norma ISO/IEC 25010:2011 define a eficiência como a capacidade do software de fornecer o desempenho apropriado em relação à quantidade de recursos usados.
+3. **Usabilidade**: A norma ISO/IEC 25010:2011 define a usabilidade como a eficácia, eficiência e satisfação com que os usuários podem alcançar seus objetivos em um determinado ambiente de uso do produto.
+4. **Portabilidade**: A norma ISO/IEC 25010:2011 define a portabilidade como a capacidade do software de ser transferido de um ambiente para outro.
+5. **Interoperabilidade**: Embora não seja explicitamente mencionada na norma ISO/IEC 25010:2011, a interoperabilidade é um aspecto importante da qualidade do software. Refere-se à capacidade do software de interagir e operar com outros sistemas ou componentes de software.
+
+Essas normas ISO ajudam a garantir que o software atenda a um padrão mínimo de qualidade e fornece uma estrutura para a avaliação contínua da qualidade do software.
+
+**Normas ISO 9126 (NBR 13596)**
+
+São padrões internacionais para a qualidade do software. Aqui está um resumo:
+
+1. **ISO 9126-1 de 2001**: Esta parte da norma trata das características, subcaracterísticas e métricas da qualidade de um produto de software. Isso inclui aspectos como funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade.
+2. **ISO 9126-2 de 2003**: Esta parte da norma trata das métricas externas e do controle de falhas. As métricas externas são aquelas que podem ser medidas apenas com relação ao comportamento do software, e o controle de falhas se refere à capacidade do software de manter sua operação mesmo na presença de falhas.
+3. **ISO 9126-3 de 2003**: O objetivo desta parte da norma é verificar a quantidade de ocorrências de falhas e estimar o tempo de recuperação. Isso ajuda a avaliar a confiabilidade do software.
+4. **ISO 9126-4 de 2004**: Esta parte da norma lida com User Experience, produtividade, eficácia e segurança. Estes são aspectos importantes da usabilidade e eficiência do software.
+
+Essas normas fornecem um quadro para avaliar a qualidade de um produto de software e são amplamente utilizadas na indústria de software. Elas ajudam a garantir que o software atenda a um padrão mínimo de qualidade e fornece uma estrutura para a avaliação contínua da qualidade do software.
+
+![Características da ISO 9126](./images/ISO_9126_characteristics.png)
+
+A imagem ilustra as seis características principais da qualidade do software conforme definido pela norma ISO 9126. Aqui está uma explicação de cada uma:
+
+1. **Funcionalidade**: Refere-se à capacidade do software de fornecer funções que atendam às necessidades declaradas e implícitas quando usado sob condições especificadas.
+2. **Confiabilidade**: Esta é a capacidade do software de manter seu nível de desempenho sob condições especificadas. Em outras palavras, o software deve ser capaz de operar sem falhas durante um período de tempo específico.
+3. **Usabilidade**: Refere-se à eficácia, eficiência e satisfação com que os usuários podem alcançar seus objetivos em um determinado ambiente de uso do produto.
+4. **Eficiência**: Esta é a capacidade do software de fornecer o desempenho apropriado em relação à quantidade de recursos usados. Isso se refere à velocidade e à eficiência com que o software realiza suas tarefas.
+5. **Manutenibilidade**: Esta é a facilidade com que um produto de software pode ser modificado para corrigir defeitos, melhorar o desempenho ou adaptar-se a um novo ambiente.
+6. **Portabilidade**: Esta é a capacidade do software de ser transferido de um ambiente para outro. Isso significa que o software pode ser usado em diferentes sistemas operacionais, dispositivos ou navegadores com pouco ou nenhum esforço de modificação.
+
+Essas características são fundamentais para avaliar a qualidade de um produto de software e são amplamente utilizadas na indústria de software para garantir que o software atenda a um padrão mínimo de qualidade. Elas fornecem uma estrutura para a avaliação contínua da qualidade do software.
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### Indicadores de Qualidade
+
+A norma ISO/IEC 25010:2011 (ISO 9126). Ela lista quatro indicadores de qualidade:
+
+1. **Medidas de qualidade do processo**: Essas são avaliações e métricas relacionadas à eficiência, eficácia e adaptabilidade dos processos envolvidos na criação do software. Isso pode incluir coisas como o tempo necessário para completar certas tarefas, a quantidade de recursos usados, e quão bem o processo pode ser ajustado para atender a diferentes necessidades.
+2. **Medidas de qualidade internas**: Estes são critérios para avaliar a qualidade do software durante as fases de desenvolvimento. Isso pode incluir coisas como a legibilidade do código, a complexidade da arquitetura, e a facilidade de manutenção do software.
+3. **Medidas de qualidade externas**: Estas são avaliações baseadas na interação do usuário com o software. Isso pode incluir coisas como usabilidade, desempenho e confiabilidade. Por exemplo, quão intuitiva é a interface do usuário, quão rápido o software responde a entradas do usuário, e quão frequentemente o software falha ou produz erros.
+4. **Medidas de qualidade do software em uso**: Estas são métricas relacionadas à experiência real dos usuários ao utilizar o software em um ambiente operacional. Isso pode incluir coisas como a satisfação do usuário, a eficácia do software em ajudar os usuários a alcançar seus objetivos, e a eficiência do software em termos de recursos utilizados versus resultados produzidos.
+
+![Indicadores de Qualidade](./images/Quality_Indicators.png)
+
+A imagem mostra um modelo de como diferentes aspectos da qualidade estão inter-relacionados na engenharia de software:
+
+1. **Qualidade do processo**: Este é o ponto de partida no diagrama. A qualidade do processo se refere à eficácia, eficiência e adaptabilidade dos processos usados para desenvolver o software. A qualidade do processo influencia e é influenciada pelas propriedades internas do software.
+2. **Propriedades internas**: Estas são características do software que podem ser medidas sem executar o sistema, como a complexidade do código ou a modularidade da arquitetura. As propriedades internas são influenciadas pela qualidade do processo e, por sua vez, influenciam as propriedades externas.
+3. **Propriedades externas**: Estas são características do software que são evidentes quando o sistema está em execução, como desempenho, confiabilidade e usabilidade. As propriedades externas são influenciadas pelas propriedades internas e, por sua vez, influenciam a qualidade do software em uso.
+4. **Qualidade do software em uso**: Esta é a percepção do usuário sobre a qualidade do software quando ele é usado em um ambiente operacional. A qualidade do software em uso é influenciada pelas propriedades externas.
+
+Em resumo, a qualidade do processo leva a boas propriedades internas, que por sua vez levam a boas propriedades externas, resultando em alta qualidade do software em uso. Este é um ciclo contínuo de melhoria e adaptação. Espero que isso ajude a esclarecer o relacionamento mostrado na imagem!
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### ISO 9000
+
+Claro, a ISO 9000 é uma série de normas que estabelecem diretrizes sobre a gestão da qualidade para qualquer tipo de organização. Ela é composta por vários padrões, cada um com um propósito específico.
+
+1. **Fundamentos e princípios da gestão da qualidade**: A ISO 9000:2015 descreve os fundamentos e princípios da gestão da qualidade. Ela fornece os conceitos fundamentais, princípios e vocabulário para sistemas de gestão da qualidade (SGQ) e serve como base para outros padrões de SGQ. Os sete princípios de gestão da qualidade incluem foco no cliente, liderança, envolvimento das pessoas, abordagem de processo, melhoria, tomada de decisão baseada em evidências e gestão de relacionamentos.
+2. **Processos de implementação da gestão da qualidade**: A implementação da ISO 9000 envolve várias etapas, incluindo o desenvolvimento de uma política de qualidade interna, a identificação de processos, a identificação e aquisição dos recursos necessários, a identificação e preenchimento das necessidades de treinamento, a implementação do SGQ, o desenvolvimento de um sistema de auditoria interna, entre outros. A abordagem de processo é um dos princípios fundamentais da ISO 9000, que envolve entender e gerenciar processos inter-relacionados como um sistema para melhorar a eficácia e eficiência da organização no alcance de seus objetivos.
+3. **Avaliação da conformidade dos produtos de software**: A avaliação da conformidade é o processo de demonstração de que um produto, serviço, processo, sistema ou pessoa atende aos requisitos relevantes. No contexto de produtos de software, isso pode envolver a inspeção da documentação do produto de software em todas as etapas de seu ciclo de vida, a observação de testes e a funcionalidade de produtos de software concluídos.
+
+Espero que isso ajude a esclarecer a ISO 9000 e sua aplicação na gestão da qualidade e na avaliação da conformidade dos produtos de software.
+
+**Princípios da gestão da qualidade do ISO 9000**
+
+Os princípios da gestão da qualidade do ISO 9000 são fundamentais para qualquer sistema de gestão da qualidade. Aqui estão eles explicados:
+
+1. **Foco no cliente**: O objetivo principal da gestão da qualidade é atender aos requisitos do cliente e se esforçar para superar as expectativas do cliente. Isso é alcançado quando uma organização atrai e retém a confiança dos clientes e outras partes interessadas. Cada aspecto da interação com o cliente fornece uma oportunidade para criar mais valor para o cliente.
+2. **Liderança**: Líderes bem-sucedidos estabelecem um sentido unificado de propósito e direção. Eles continuamente criam as condições ideais nas quais os funcionários prosperam, ganhando motivação e satisfação profissional na busca de objetivos de qualidade.
+3. **Engajamento de pessoas**: Inspirar e capacitar pessoas em todos os níveis é essencial para o processo de entrega de valor. As habilidades das pessoas são usadas e valorizadas, o que é crucial para o sucesso da organização.
+4. **Abordagem de processo**: A gestão de atividades como processos é fundamental para a eficácia e eficiência da organização. Isso envolve entender e gerenciar processos inter-relacionados como um sistema.
+5. **Melhoria**: A melhoria contínua é um princípio fundamental da ISO 9000. Isso envolve a busca constante por melhorias no desempenho organizacional e nas capacidades.
+6. **Tomada de decisão baseada em evidências**: Tomar decisões informadas contribui para a eficácia da gestão da qualidade. Isso envolve a análise de dados e informações para fornecer evidências que suportem as decisões.
+7. **Gestão de relacionamentos**: A gestão eficaz de relacionamentos permite que a organização crie valor a longo prazo para todas as partes interessadas, incluindo fornecedores. Isso envolve gerenciar ativamente os relacionamentos com os clientes para alcançar o sucesso sustentado.
+
+Esses princípios não estão listados em ordem de prioridade. A importância relativa de cada princípio varia de organização para organização e pode ser esperado que mude ao longo do tempo. Espero que isso ajude a esclarecer os princípios da gestão da qualidade do ISO 9000!
+
+[Sumário](#sum%C3%A1rio "Sumário")
+
+### ISO 9001
+
+Claro, aqui está uma explicação detalhada dos pontos que você mencionou sobre a ISO 9001:
+
+1. **Controle documental**: A ISO 9001 exige que as organizações controlem os documentos necessários para o sistema de gestão da qualidade. Isso inclui a identificação única de todos os documentos, controle de versão e identificação de revisões. O controle de documentos garante que a versão correta dos documentos esteja disponível nos locais de uso e que os documentos obsoletos sejam removidos.
+2. **Controle de registro da qualidade**: Os registros são uma forma especial de informação documentada. Ao contrário dos documentos, que são revisados e mantidos atualizados, os registros são estáticos. Eles mostram resultados alcançados ou fornecem evidência de atividades que foram realizadas. O controle de registros é necessário, por exemplo, para garantir que eles permaneçam disponíveis por um período de tempo especificado e sejam descartados posteriormente.
+3. **Normatização da auditoria interna**: A ISO 19011 fornece diretrizes para a realização de auditorias de sistemas de gestão, incluindo sistemas de gestão da qualidade (ISO 9001) e sistemas de gestão ambiental (ISO 14001). Ela descreve os princípios da auditoria, a gestão de programas de auditoria e a condução de auditorias de sistemas de gestão.
+4. **Controle de produtos que não atendam às conformidades**: A cláusula 8.7 da ISO 9001 exige que uma organização identifique as saídas que não estejam em conformidade com os requisitos do cliente e controle essas para evitar seu uso ou entrega não intencionais.
+5. **Ações corretivas**: As ações corretivas eliminam as causas de situações indesejáveis, falhas no sistema ou não conformidades em seu sistema de gestão. As ações corretivas são reativas a um problema depois que ele ocorre, onde as ações preventivas são proativas a um problema potencial antes que ele possa ocorrer.
+6. **Ações preventivas**: A ação preventiva é realizada para eliminar um evento potencial que pode criar não conformidade. Embora a ISO 9001:2015 tenha substituído o termo ‘ação preventiva’ pelo conceito de ‘pensamento baseado em risco’, o conceito de ações corretivas e preventivas (CAPA) ainda é uma estratégia crítica para a maioria dos sistemas de gestão.
+
+Espero que isso ajude a esclarecer os pontos que você mencionou sobre a ISO 9001!
+
+**Vantagens**
+
+Vamos falar sobre a ISO 9001 e suas vantagens na Engenharia de Software.
+
+A **ISO 9001** é uma norma de sistemas de gestão da qualidade reconhecida internacionalmente. Ela é baseada em uma série de princípios de gestão da qualidade, incluindo um forte foco no cliente, a abordagem de processo, a melhoria contínua e a tomada de decisão baseada em evidências.
+
+Aqui estão as vantagens que você mencionou, explicadas:
+
+- **Padronização**: A ISO 9001 ajuda a padronizar os processos dentro de uma organização. Isso significa que todas as tarefas são realizadas de maneira consistente, o que leva a menos erros e maior eficiência.
+- **Aumento de produtividade**: Ao padronizar os processos e melhorar a eficiência, a produtividade geralmente aumenta. Isso pode levar a um aumento na produção ou na capacidade de realizar mais trabalho.
+- **Satisfação do cliente**: A ISO 9001 coloca um forte foco na satisfação do cliente. Ao garantir que os produtos ou serviços atendam às necessidades e expectativas dos clientes, a satisfação do cliente geralmente aumenta.
+- **Economia de recursos**: Ao melhorar a eficiência e a produtividade, os recursos podem ser economizados. Isso pode incluir tempo, dinheiro ou materiais.
+- **Retrabalho**: A ISO 9001 ajuda a reduzir o retrabalho, pois os processos são padronizados e a qualidade é monitorada de perto. Isso significa que os erros são menos prováveis de ocorrer, reduzindo a necessidade de retrabalho.
+
+Espero que isso ajude a esclarecer as vantagens da ISO 9001 na Engenharia de Software!
 
