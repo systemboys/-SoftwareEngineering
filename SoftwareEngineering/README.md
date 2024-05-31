@@ -479,7 +479,7 @@ Vamos detalhar esses conceitos:
 
 - **Pôquer do Planejamento (Planning Poker)**: O Pôquer do Planejamento, também chamado de Scrum Poker, é uma técnica baseada em consenso e gamificação usada principalmente para estimar esforço ou tamanho relativo das metas no desenvolvimento de software. No Pôquer do Planejamento, os membros do grupo fazem estimativas jogando cartas numeradas para baixo na mesa, em vez de falar em voz alta. Os cartões são revelados, e as estimativas são discutidas. Ao esconder as figuras desta maneira, o grupo pode evitar o viés cognitivo da ancoragem, onde o primeiro número falado em voz alta estabelece um precedente para as estimativas subsequentes.
 
-> **Scrum e Backlogs**
+> ## Scrum e Backlogs
 >
 > Conceitos relacionados ao **Scrum**, uma metodologia ágil amplamente utilizada no desenvolvimento de software:
 >
